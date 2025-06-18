@@ -76,6 +76,7 @@ button:disabled {
     border-radius: 4px;
     background: #fff;
     cursor: pointer;
+    color: black; /* Added to set option text color to black */
 }
 
 .option:hover {
@@ -84,12 +85,12 @@ button:disabled {
 
 .correct {
     background: #28a745 !important;
-    color: white;
+    color: white !important; /* Ensure text is white for contrast */
 }
 
 .incorrect {
     background: #dc3545 !important;
-    color: white;
+    color: white !important; /* Ensure text is white for contrast */
 }
 
 .navigation {
@@ -112,9 +113,9 @@ button:disabled {
     text-decoration: underline;
 }
 
-/* New styles for AdSense */
+/* Styles for AdSense ad */
 #ad-container {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     text-align: center;
 }
 
@@ -122,4 +123,5 @@ button:disabled {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+    min-height: 50px; /* Prevent layout shift */
 }
