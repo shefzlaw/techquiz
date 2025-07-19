@@ -23,8 +23,8 @@
             <input type="password" id="login-password" required>
         </div>
         <button id="login-btn">Login</button>
-        <p><a href="#" id="show-register">Don't have an account? Register here</a></p>
-        <p id="login-error" class="warning"></p>
+        <p><a href="#" id="show-register" role="button">Don't have an account? Register here</a></p>
+        <p id="login-error" class="warning" role="alert"></p>
     </div>
     <div id="register-screen" style="display: none;">
         <h2>Register</h2>
@@ -37,8 +37,8 @@
             <input type="password" id="register-password" required>
         </div>
         <button id="register-btn">Register</button>
-        <p><a href="#" id="show-login">Already have an account? Login here</a></p>
-        <p id="register-error" class="warning"></p>
+        <p><a href="#" id="show-login" role="button">Already have an account? Login here</a></p>
+        <p id="register-error" class="warning" role="alert"></p>
     </div>
     <div id="subscription-screen" style="display: none;">
         <h2>Unlock Full Access</h2>
@@ -70,7 +70,7 @@
         <button id="submit-code-btn">Submit Code</button>
         <button id="free-user-btn">I’m a Free User</button>
         <p class="warning">Warning: Do not share your access code with others, as it may lead to restricted access.</p>
-        <p id="subscription-error" class="warning"></p>
+        <p id="subscription-error" class="warning" role="alert"></p>
     </div>
     <div id="start-screen" style="display: none;">
         <h2>Start Quiz</h2>
@@ -95,7 +95,7 @@
             <select id="question-count" required></select>
         </div>
         <button id="start-btn">Start Quiz</button>
-        <p id="start-error" class="warning"></p>
+        <p id="start-error" class="warning" role="alert"></p>
         <div id="ad-container">
             <!-- google ads -->
             <ins class="adsbygoogle"
