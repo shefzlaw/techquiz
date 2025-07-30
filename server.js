@@ -32,7 +32,7 @@ const User = mongoose.model('User', userSchema);
 // Access codes from scripts.txt
 const usernameCodes = {
   A: { threeMonths: { initial: "698755", renewal: "000000" }, sevenMonths: { initial: "336445", renewal: "300000" } },
-  B: { threeMonths: { initial: "738439", renewal: "111111" }, sevenMonths: { initial: "913193", renewal: "310000" } },
+  B: { threeMonths: { initial: "980439", renewal: "111111" }, sevenMonths: { initial: "913193", renewal: "310000" } },
   C: { threeMonths: { initial: "823423", renewal: "222222" }, sevenMonths: { initial: "731383", renewal: "320000" } },
   D: { threeMonths: { initial: "937055", renewal: "333333" }, sevenMonths: { initial: "823283", renewal: "330000" } },
   E: { threeMonths: { initial: "651920", renewal: "444444" }, sevenMonths: { initial: "892732", renewal: "340000" } },
@@ -46,7 +46,7 @@ const usernameCodes = {
   M: { threeMonths: { initial: "810945", renewal: "120000" }, sevenMonths: { initial: "292928", renewal: "420000" } },
   N: { threeMonths: { initial: "769292", renewal: "130000" }, sevenMonths: { initial: "172230", renewal: "430000" } },
   O: { threeMonths: { initial: "893003", renewal: "140000" }, sevenMonths: { initial: "832323", renewal: "440000" } },
-  P: { threeMonths: { initial: "660022", renewal: "150000" }, sevenMonths: { initial: "111015", renewal: "450000" } },
+  P: { threeMonths: { initial: "660022", renewal: "150000" }, sevenMonths: { initial: "871015", renewal: "450000" } },
   Q: { threeMonths: { initial: "550090", renewal: "160000" }, sevenMonths: { initial: "110122", renewal: "460000" } },
   R: { threeMonths: { initial: "712843", renewal: "170000" }, sevenMonths: { initial: "011067", renewal: "470000" } },
   S: { threeMonths: { initial: "244345", renewal: "180000" }, sevenMonths: { initial: "101018", renewal: "480000" } },
