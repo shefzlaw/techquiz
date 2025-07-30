@@ -34,7 +34,7 @@ const usernameCodes = {
   A: { threeMonths: { initial: "698755", renewal: "000000" }, sevenMonths: { initial: "336445", renewal: "300000" } },
   B: { threeMonths: { initial: "738439", renewal: "111111" }, sevenMonths: { initial: "913193", renewal: "310000" } },
   C: { threeMonths: { initial: "823423", renewal: "222222" }, sevenMonths: { initial: "731383", renewal: "320000" } },
-  D: { threeMonths: { initial: "437097", renewal: "333333" }, sevenMonths: { initial: "823283", renewal: "330000" } },
+  D: { threeMonths: { initial: "937055", renewal: "333333" }, sevenMonths: { initial: "823283", renewal: "330000" } },
   E: { threeMonths: { initial: "651920", renewal: "444444" }, sevenMonths: { initial: "892732", renewal: "340000" } },
   F: { threeMonths: { initial: "019344", renewal: "555555" }, sevenMonths: { initial: "092320", renewal: "350000" } },
   G: { threeMonths: { initial: "384139", renewal: "666666" }, sevenMonths: { initial: "683283", renewal: "360000" } },
