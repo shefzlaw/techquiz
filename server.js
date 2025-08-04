@@ -3005,6 +3005,692 @@ app.get('/questions', async (req, res) => {
       ],
       correct: "Ensure proper administration",
     },
+
+  {
+    question: "In dispensing, which is more important?",
+    options: ["Speed", "Accuracy", "Neither", "Both equally"],
+    correct: "Accuracy"
+  },
+  {
+    question: "Thermolabile drugs should be stored in a…",
+    options: ["Cupboard", "Shelf", "Refrigerator", "Freezer"],
+    correct: "Refrigerator"
+  },
+  {
+    question: "The general formula for assessing stock status is…",
+    options: ["MoS = HoS/AMC", "MoS = SoH/AMC", "MoS = AMC/SoH", "MoS = AMC x SoH"],
+    correct: "MoS = SoH/AMC"
+  },
+  {
+    question: "Collodions are clear liquid preparations containing…",
+    options: ["Nitrocellulose in volatile solvents", "Medicated syrups", "Large light-sensitive containers", "Flavored emulsions"],
+    correct: "Nitrocellulose in volatile solvents"
+  },
+  {
+    question: "What does OTC stand for in pharmacy practice?",
+    options: ["Over the content", "Over the counter", "On the counter", "Ophthalmic drugs"],
+    correct: "Over the counter"
+  },
+  {
+    question: "The pH for acidic pharmaceutical preparations is…",
+    options: ["7", "More than 7", "Less than 7", "5–8"],
+    correct: "Less than 7"
+  },
+  {
+    question: "How many milliliters are in eight fluid ounces?",
+    options: ["120 ml", "240 ml", "60 ml", "480 ml"],
+    correct: "240 ml"
+  },
+  {
+    question: "Sugar-coated tablets are used to…",
+    options: ["Increase dissolution rate", "Mask objectionable odor", "Reduce stability", "Decrease bioavailability"],
+    correct: "Mask objectionable odor"
+  },
+  {
+    question: "Consumption records document the…",
+    options: ["Quantity dispensed", "Drug absorption rate", "Stock expiration", "Patient diagnosis"],
+    correct: "Quantity dispensed"
+  },
+  {
+    question: "If a Ventolin inhaler contains 20 mg of salbutamol, how many 100 mcg doses can it deliver?",
+    options: ["120 doses", "200 doses", "20 doses", "5 doses"],
+    correct: "200 doses"
+  },
+  {
+    question: "Scenario: A prescription reads 'Amoxicillin 250 mg capsules, 2 capsules TID for 7 days.' How many capsules are needed for the full course?",
+    options: ["28 capsules", "42 capsules", "56 capsules", "14 capsules"],
+    correct: "42 capsules"
+  },
+  {
+    question: "The process of preparing and packaging a medication for a patient is called…",
+    options: ["Compounding", "Dispensing", "Manufacturing", "Inventory"],
+    correct: "Dispensing"
+  },
+  {
+    question: "Which type of container is used for light-sensitive drugs?",
+    options: ["Clear glass", "Amber glass", "Plastic", "Metal"],
+    correct: "Amber glass"
+  },
+  {
+    question: "The term 'BID' on a prescription means…",
+    options: ["Once daily", "Twice daily", "Three times daily", "Every other day"],
+    correct: "Twice daily"
+  },
+  {
+    question: "Scenario: A patient is prescribed 5 ml of a syrup containing 125 mg/5 ml of paracetamol QID for 5 days. What is the total dose of paracetamol in mg?",
+    options: ["1250 mg", "2500 mg", "5000 mg", "625 mg"],
+    correct: "2500 mg"
+  },
+  {
+    question: "Which type of preparation is a suspension?",
+    options: ["Clear liquid", "Solid tablet", "Heterogeneous liquid", "Homogeneous solution"],
+    correct: "Heterogeneous liquid"
+  },
+  {
+    question: "The maximum storage temperature for most drugs is…",
+    options: ["15°C", "25°C", "35°C", "45°C"],
+    correct: "25°C"
+  },
+  {
+    question: "What is the purpose of a bin card in pharmacy inventory?",
+    options: ["Track patient records", "Monitor stock levels", "Record prescriptions", "Calculate dosages"],
+    correct: "Monitor stock levels"
+  },
+  {
+    question: "Enteric-coated tablets are designed to dissolve in the…",
+    options: ["Stomach", "Small intestine", "Mouth", "Esophagus"],
+    correct: "Small intestine"
+  },
+  {
+    question: "Scenario: A prescription calls for 10 ml of a 50 mg/ml solution of metronidazole TID for 7 days. How many mg of metronidazole are needed?",
+    options: ["1050 mg", "2100 mg", "3500 mg", "4200 mg"],
+    correct: "2100 mg"
+  },
+  {
+    question: "The term 'PRN' on a prescription means…",
+    options: ["As needed", "Every day", "Twice daily", "At bedtime"],
+    correct: "As needed"
+  },
+  {
+    question: "Which type of dosage form is a lozenge?",
+    options: ["Liquid", "Solid", "Semisolid", "Gas"],
+    correct: "Solid"
+  },
+  {
+    question: "The primary purpose of a prescription label is to…",
+    options: ["Advertise the drug", "Provide patient instructions", "List drug ingredients", "Track inventory"],
+    correct: "Provide patient instructions"
+  },
+  {
+    question: "Scenario: A patient is prescribed 1 tablet of ibuprofen 400 mg QID for 3 days. How many tablets are required?",
+    options: ["12 tablets", "8 tablets", "16 tablets", "24 tablets"],
+    correct: "12 tablets"
+  },
+  {
+    question: "Which type of preparation is an emulsion?",
+    options: ["Clear solution", "Heterogeneous liquid with oil and water", "Solid tablet", "Gas aerosol"],
+    correct: "Heterogeneous liquid with oil and water"
+  },
+  {
+    question: "The storage condition for insulin is…",
+    options: ["Room temperature", "Refrigerator (2–8°C)", "Freezer", "Above 25°C"],
+    correct: "Refrigerator (2–8°C)"
+  },
+  {
+    question: "What does 'QID' mean on a prescription?",
+    options: ["Once daily", "Twice daily", "Three times daily", "Four times daily"],
+    correct: "Four times daily"
+  },
+  {
+    question: "The purpose of a child-resistant container is to…",
+    options: ["Reduce cost", "Prevent accidental ingestion", "Improve drug stability", "Ease dispensing"],
+    correct: "Prevent accidental ingestion"
+  },
+  {
+    question: "Scenario: A prescription reads 'Cefuroxime 500 mg BID for 10 days.' How many grams of cefuroxime are needed?",
+    options: ["5 g", "10 g", "15 g", "20 g"],
+    correct: "10 g"
+  },
+  {
+    question: "The process of mixing two or more ingredients to prepare a medication is called…",
+    options: ["Dispensing", "Compounding", "Packaging", "Labeling"],
+    correct: "Compounding"
+  },
+  {
+    question: "Which type of syringe is used for insulin administration?",
+    options: ["3 ml syringe", "5 ml syringe", "Insulin syringe", "10 ml syringe"],
+    correct: "Insulin syringe"
+  },
+  {
+    question: "The term 'HS' on a prescription means…",
+    options: ["Every morning", "At bedtime", "Twice daily", "As needed"],
+    correct: "At bedtime"
+  },
+  {
+    question: "Scenario: A patient is prescribed 2 ml of a 100 mg/ml amoxicillin suspension TID for 5 days. How many mg of amoxicillin are needed?",
+    options: ["300 mg", "600 mg", "1500 mg", "3000 mg"],
+    correct: "3000 mg"
+  },
+  {
+    question: "The purpose of a desiccant in a drug container is to…",
+    options: ["Prevent moisture", "Enhance flavor", "Increase dissolution", "Reduce cost"],
+    correct: "Prevent moisture"
+  },
+  {
+    question: "Which dosage form is designed for sublingual administration?",
+    options: ["Capsule", "Tablet", "Sublingual tablet", "Suppository"],
+    correct: "Sublingual tablet"
+  },
+  {
+    question: "The primary purpose of a stock rotation system is to…",
+    options: ["Increase sales", "Use older stock first", "Reduce dispensing errors", "Improve packaging"],
+    correct: "Use older stock first"
+  },
+  {
+    question: "Scenario: A prescription calls for 1 tablet of atenolol 50 mg OD for 30 days. How many tablets are needed?",
+    options: ["15 tablets", "30 tablets", "60 tablets", "90 tablets"],
+    correct: "30 tablets"
+  },
+  {
+    question: "The pH for alkaline pharmaceutical preparations is…",
+    options: ["7", "More than 7", "Less than 7", "5–8"],
+    correct: "More than 7"
+  },
+  {
+    question: "Which type of preparation is a cream?",
+    options: ["Solid", "Liquid", "Semisolid", "Gas"],
+    correct: "Semisolid"
+  },
+  {
+    question: "The term 'OD' on a prescription means…",
+    options: ["Once daily", "Twice daily", "Three times daily", "Every other day"],
+    correct: "Once daily"
+  },
+  {
+    question: "Scenario: A patient is prescribed 5 ml of a 250 mg/5 ml suspension of azithromycin OD for 3 days. What is the total dose in mg?",
+    options: ["250 mg", "500 mg", "750 mg", "1000 mg"],
+    correct: "750 mg"
+  },
+  {
+    question: "The purpose of a dropper in liquid medications is to…",
+    options: ["Measure accurate doses", "Increase stability", "Prevent contamination", "Enhance flavor"],
+    correct: "Measure accurate doses"
+  },
+  {
+    question: "Which type of container is used for sterile injections?",
+    options: ["Vial", "Bottle", "Jar", "Tube"],
+    correct: "Vial"
+  },
+  {
+    question: "The term 'TID' on a prescription means…",
+    options: ["Once daily", "Twice daily", "Three times daily", "Four times daily"],
+    correct: "Three times daily"
+  },
+  {
+    question: "Scenario: A prescription reads 'Paracetamol 500 mg tablets, 2 tablets QID for 5 days.' How many tablets are needed?",
+    options: ["20 tablets", "40 tablets", "60 tablets", "80 tablets"],
+    correct: "40 tablets"
+  },
+  {
+    question: "The purpose of a pharmacy stock inventory is to…",
+    options: ["Track patient records", "Ensure drug availability", "Record prescriptions", "Calculate dosages"],
+    correct: "Ensure drug availability"
+  },
+  {
+    question: "Which dosage form is designed for rectal administration?",
+    options: ["Tablet", "Capsule", "Suppository", "Syrup"],
+    correct: "Suppository"
+  },
+  {
+    question: "The storage condition for vaccines is typically…",
+    options: ["Room temperature", "Refrigerator (2–8°C)", "Freezer", "Above 25°C"],
+    correct: "Refrigerator (2–8°C)"
+  },
+  {
+    question: "Scenario: A patient is prescribed 1 ml of a 50 mg/ml solution of gentamicin BID for 7 days. How many mg of gentamicin are needed?",
+    options: ["350 mg", "700 mg", "1400 mg", "2100 mg"],
+    correct: "700 mg"
+  },
+  {
+    question: "The purpose of a prescription is to…",
+    options: ["Provide a treatment plan", "Advertise drugs", "Track inventory", "Record patient history"],
+    correct: "Provide a treatment plan"
+  },
+  {
+    question: "Which type of preparation is a gel?",
+    options: ["Solid", "Liquid", "Semisolid", "Gas"],
+    correct: "Semisolid"
+  },
+  {
+    question: "The term 'STAT' on a prescription means…",
+    options: ["Immediately", "Once daily", "Twice daily", "As needed"],
+    correct: "Immediately"
+  },
+  {
+    question: "Scenario: A prescription calls for 2 tablets of artemether-lumefantrine (20/120 mg) BID for 3 days. How many tablets are needed?",
+    options: ["6 tablets", "12 tablets", "18 tablets", "24 tablets"],
+    correct: "12 tablets"
+  },
+  {
+    question: "The purpose of a tamper-evident seal is to…",
+    options: ["Prevent contamination", "Ensure safety", "Increase shelf life", "Enhance appearance"],
+    correct: "Ensure safety"
+  },
+  {
+    question: "Which dosage form is designed for inhalation?",
+    options: ["Tablet", "Syrup", "Aerosol", "Ointment"],
+    correct: "Aerosol"
+  },
+  {
+    question: "The maximum storage time for reconstituted suspensions is typically…",
+    options: ["7 days", "14 days", "30 days", "60 days"],
+    correct: "14 days"
+  },
+  {
+    question: "Scenario: A patient is prescribed 10 ml of a 200 mg/5 ml suspension of ibuprofen TID for 4 days. How many mg of ibuprofen are needed?",
+    options: ["2400 mg", "4800 mg", "7200 mg", "9600 mg"],
+    correct: "4800 mg"
+  },
+  {
+    question: "The purpose of a blister pack is to…",
+    options: ["Reduce cost", "Protect tablets", "Increase dissolution", "Prevent contamination"],
+    correct: "Protect tablets"
+  },
+  {
+    question: "Which type of preparation is a liniment?",
+    options: ["Oral liquid", "Topical liquid", "Injectable", "Inhalable"],
+    correct: "Topical liquid"
+  },
+  {
+    question: "The term 'QOD' on a prescription means…",
+    options: ["Once daily", "Twice daily", "Every other day", "Four times daily"],
+    correct: "Every other day"
+  },
+  {
+    question: "Scenario: A prescription reads 'Fluconazole 150 mg stat.' How many doses are required?",
+    options: ["1 dose", "2 doses", "3 doses", "4 doses"],
+    correct: "1 dose"
+  },
+  {
+    question: "The purpose of a cold chain system is to…",
+    options: ["Reduce cost", "Maintain drug stability", "Increase dissolution", "Prevent contamination"],
+    correct: "Maintain drug stability"
+  },
+  {
+    question: "Which dosage form is designed for topical application?",
+    options: ["Tablet", "Syrup", "Ointment", "Capsule"],
+    correct: "Ointment"
+  },
+  {
+    question: "The term 'PO' on a prescription means…",
+    options: ["By mouth", "By injection", "By rectum", "By inhalation"],
+    correct: "By mouth"
+  },
+  {
+    question: "Scenario: A patient is prescribed 1 tablet of lisinopril 10 mg OD for 28 days. How many tablets are needed?",
+    options: ["14 tablets", "28 tablets", "56 tablets", "84 tablets"],
+    correct: "28 tablets"
+  },
+  {
+    question: "The purpose of a graduated cylinder in dispensing is to…",
+    options: ["Measure liquids accurately", "Mix powders", "Store tablets", "Label prescriptions"],
+    correct: "Measure liquids accurately"
+  },
+  {
+    question: "Which type of preparation is a tincture?",
+    options: ["Solid", "Liquid", "Semisolid", "Gas"],
+    correct: "Liquid"
+  },
+  {
+    question: "The term 'IM' on a prescription means…",
+    options: ["Intravenous", "Intramuscular", "Subcutaneous", "Inhalation"],
+    correct: "Intramuscular"
+  },
+  {
+    question: "Scenario: A prescription calls for 5 ml of a 100 mg/5 ml suspension of metronidazole BID for 7 days. How many mg of metronidazole are needed?",
+    options: ["700 mg", "1400 mg", "2100 mg", "2800 mg"],
+    correct: "1400 mg"
+  },
+  {
+    question: "The purpose of a pharmacy logbook is to…",
+    options: ["Track drug dispensing", "Record patient complaints", "Monitor stock prices", "Calculate dosages"],
+    correct: "Track drug dispensing"
+  },
+  {
+    question: "Which dosage form is designed for oral administration?",
+    options: ["Suppository", "Tablet", "Ointment", "Aerosol"],
+    correct: "Tablet"
+  },
+  {
+    question: "The storage condition for controlled drugs is…",
+    options: ["Open shelf", "Locked cabinet", "Refrigerator", "Freezer"],
+    correct: "Locked cabinet"
+  },
+  {
+    question: "Scenario: A prescription reads 'Ciprofloxacin 500 mg BID for 5 days.' How many tablets are needed?",
+    options: ["5 tablets", "10 tablets", "15 tablets", "20 tablets"],
+    correct: "10 tablets"
+  },
+  {
+    question: "The purpose of a medication tray in dispensing is to…",
+    options: ["Prevent errors", "Increase speed", "Reduce cost", "Enhance appearance"],
+    correct: "Prevent errors"
+  },
+  {
+    question: "Which type of preparation is a lotion?",
+    options: ["Solid", "Liquid", "Semisolid", "Gas"],
+    correct: "Liquid"
+  },
+  {
+    question: "The term 'IV' on a prescription means…",
+    options: ["Intravenous", "Intramuscular", "Subcutaneous", "Inhalation"],
+    correct: "Intravenous"
+  },
+  {
+    question: "Scenario: A patient is prescribed 2 ml of a 25 mg/ml solution of diazepam TID for 3 days. How many mg of diazepam are needed?",
+    options: ["150 mg", "300 mg", "450 mg", "600 mg"],
+    correct: "450 mg"
+  },
+  {
+    question: "The purpose of a prescription countercheck is to…",
+    options: ["Reduce cost", "Ensure accuracy", "Increase speed", "Track inventory"],
+    correct: "Ensure accuracy"
+  },
+  {
+    question: "Which dosage form is designed for ophthalmic administration?",
+    options: ["Tablet", "Syrup", "Eye drops", "Suppository"],
+    correct: "Eye drops"
+  },
+  {
+    question: "The maximum volume for an intramuscular injection is…",
+    options: ["2 ml", "5 ml", "10 ml", "20 ml"],
+    correct: "5 ml"
+  },
+  {
+    question: "Scenario: A prescription reads 'Paracetamol 120 mg/5 ml syrup, 5 ml TID for 5 days.' How many ml of syrup are needed?",
+    options: ["25 ml", "50 ml", "75 ml", "100 ml"],
+    correct: "75 ml"
+  },
+  {
+    question: "The purpose of a medication error report is to…",
+    options: ["Track inventory", "Improve patient safety", "Reduce cost", "Increase sales"],
+    correct: "Improve patient safety"
+  },
+  {
+    question: "Which type of preparation is a paste?",
+    options: ["Solid", "Liquid", "Semisolid", "Gas"],
+    correct: "Semisolid"
+  },
+  {
+    question: "The term 'SC' on a prescription means…",
+    options: ["Intravenous", "Intramuscular", "Subcutaneous", "Inhalation"],
+    correct: "Subcutaneous"
+  },
+  {
+    question: "Scenario: A prescription calls for 1 tablet of omeprazole 20 mg OD for 14 days. How many tablets are needed?",
+    options: ["7 tablets", "14 tablets", "28 tablets", "42 tablets"],
+    correct: "14 tablets"
+  },
+  {
+    question: "The purpose of a pharmacy workflow is to…",
+    options: ["Reduce cost", "Ensure efficiency", "Increase sales", "Track patient history"],
+    correct: "Ensure efficiency"
+  },
+  {
+    question: "Which dosage form is designed for nasal administration?",
+    options: ["Tablet", "Syrup", "Nasal spray", "Ointment"],
+    correct: "Nasal spray"
+  },
+  {
+    question: "The storage condition for oral suspensions after reconstitution is…",
+    options: ["Room temperature", "Refrigerator (2–8°C)", "Freezer", "Above 25°C"],
+    correct: "Refrigerator (2–8°C)"
+  },
+  {
+    question: "Scenario: A prescription reads 'Amoxicillin 125 mg/5 ml suspension, 10 ml TID for 7 days.' How many ml of suspension are needed?",
+    options: ["70 ml", "140 ml", "210 ml", "280 ml"],
+    correct: "210 ml"
+  },
+  {
+    question: "The purpose of a medication counseling session is to…",
+    options: ["Increase sales", "Educate the patient", "Track inventory", "Reduce cost"],
+    correct: "Educate the patient"
+  },
+  {
+    question: "Which type of preparation is a powder?",
+    options: ["Solid", "Liquid", "Semisolid", "Gas"],
+    correct: "Solid"
+  },
+  {
+    question: "The term 'QHS' on a prescription means…",
+    options: ["Every morning", "At bedtime", "Twice daily", "As needed"],
+    correct: "At bedtime"
+  },
+  {
+    question: "Scenario: A prescription calls for 5 ml of a 50 mg/5 ml solution of erythromycin QID for 5 days. How many mg of erythromycin are needed?",
+    options: ["500 mg", "1000 mg", "2000 mg", "2500 mg"],
+    correct: "1000 mg"
+  },
+  {
+    question: "The purpose of a unit-dose system is to…",
+    options: ["Reduce cost", "Prevent medication errors", "Increase sales", "Enhance appearance"],
+    correct: "Prevent medication errors"
+  },
+  {
+    question: "Which dosage form is designed for transdermal administration?",
+    options: ["Tablet", "Syrup", "Patch", "Suppository"],
+    correct: "Patch"
+  },
+  {
+    question: "The maximum storage temperature for refrigerated drugs is…",
+    options: ["2–8°C", "10–15°C", "15–25°C", "25–30°C"],
+    correct: "2–8°C"
+  },
+  {
+    question: "Scenario: A prescription reads 'Ibuprofen 200 mg tablets, 1 tablet TID for 6 days.' How many tablets are needed?",
+    options: ["6 tablets", "12 tablets", "18 tablets", "24 tablets"],
+    correct: "18 tablets"
+  },
+  {
+    question: "The purpose of a pharmacy dispensing record is to…",
+    options: ["Track drug movement", "Record patient complaints", "Monitor stock prices", "Calculate dosages"],
+    correct: "Track drug movement"
+  },
+  {
+    question: "Which type of preparation is an elixir?",
+    options: ["Solid", "Liquid", "Semisolid", "Gas"],
+    correct: "Liquid"
+  },
+  {
+    question: "The term 'PR' on a prescription means…",
+    options: ["By mouth", "By injection", "By rectum", "By inhalation"],
+    correct: "By rectum"
+  },
+  {
+    question: "Scenario: A prescription calls for 2 ml of a 100 mg/ml solution of ceftriaxone OD for 5 days. How many mg of ceftriaxone are needed?",
+    options: ["500 mg", "1000 mg", "1500 mg", "2000 mg"],
+    correct: "1000 mg"
+  },
+  {
+    question: "The purpose of a medication reconciliation process is to…",
+    options: ["Reduce cost", "Ensure accurate medication use", "Increase sales", "Track inventory"],
+    correct: "Ensure accurate medication use"
+  },
+  {
+    question: "Which dosage form is designed for otic administration?",
+    options: ["Tablet", "Syrup", "Ear drops", "Suppository"],
+    correct: "Ear drops"
+  },
+  {
+    question: "The storage condition for cytotoxic drugs is…",
+    options: ["Open shelf", "Locked cabinet", "Refrigerator", "Freezer"],
+    correct: "Locked cabinet"
+  },
+  {
+    question: "Scenario: A prescription reads 'Metronidazole 400 mg tablets, 1 tablet TID for 7 days.' How many tablets are needed?",
+    options: ["7 tablets", "14 tablets", "21 tablets", "28 tablets"],
+    correct: "21 tablets"
+  },
+  {
+    question: "The purpose of a pharmacy quality control check is to…",
+    options: ["Reduce cost", "Ensure drug safety", "Increase sales", "Track patient history"],
+    correct: "Ensure drug safety"
+  },
+  {
+    question: "Which type of preparation is a capsule?",
+    options: ["Solid", "Liquid", "Semisolid", "Gas"],
+    correct: "Solid"
+  },
+  {
+    question: "The term 'INH' on a prescription means…",
+    options: ["Intravenous", "Intramuscular", "Inhalation", "Subcutaneous"],
+    correct: "Inhalation"
+  },
+  {
+    question: "Scenario: A prescription calls for 10 ml of a 125 mg/5 ml suspension of amoxicillin TID for 5 days. How many ml of suspension are needed?",
+    options: ["50 ml", "100 ml", "150 ml", "200 ml"],
+    correct: "150 ml"
+  },
+  {
+    question: "The purpose of a pharmacy dispensing label is to…",
+    options: ["Advertise the drug", "Provide patient instructions", "List drug ingredients", "Track inventory"],
+    correct: "Provide patient instructions"
+  },
+  {
+    question: "Which dosage form is designed for vaginal administration?",
+    options: ["Tablet", "Syrup", "Pessary", "Ointment"],
+    correct: "Pessary"
+  },
+  {
+    question: "The storage condition for photosensitive drugs is…",
+    options: ["Clear container", "Amber container", "Open shelf", "Freezer"],
+    correct: "Amber container"
+  },
+  {
+    question: "Scenario: A prescription reads 'Salbutamol 2 mg/5 ml syrup, 5 ml QID for 5 days.' How many ml of syrup are needed?",
+    options: ["50 ml", "100 ml", "150 ml", "200 ml"],
+    correct: "100 ml"
+  },
+  {
+    question: "The purpose of a pharmacy audit is to…",
+    options: ["Reduce cost", "Ensure compliance", "Increase sales", "Track patient history"],
+    correct: "Ensure compliance"
+  },
+  {
+    question: "Which type of preparation is a syrup?",
+    options: ["Solid", "Liquid", "Semisolid", "Gas"],
+    correct: "Liquid"
+  },
+  {
+    question: "The term 'Q4H' on a prescription means…",
+    options: ["Every 4 hours", "Every 6 hours", "Twice daily", "As needed"],
+    correct: "Every 4 hours"
+  },
+  {
+    question: "Scenario: A prescription calls for 1 tablet of fluconazole 150 mg stat. How many tablets are needed?",
+    options: ["1 tablet", "2 tablets", "3 tablets", "4 tablets"],
+    correct: "1 tablet"
+  },
+  {
+    question: "The purpose of a medication storage guideline is to…",
+    options: ["Reduce cost", "Ensure drug stability", "Increase sales", "Track patient history"],
+    correct: "Ensure drug stability"
+  },
+  {
+    question: "Which dosage form is designed for buccal administration?",
+    options: ["Tablet", "Syrup", "Buccal tablet", "Suppository"],
+    correct: "Buccal tablet"
+  },
+  {
+    question: "The maximum volume for a subcutaneous injection is…",
+    options: ["1 ml", "2 ml", "5 ml", "10 ml"],
+    correct: "2 ml"
+  },
+  {
+    question: "Scenario: A prescription reads 'Ibuprofen 400 mg tablets, 1 tablet BID for 7 days.' How many tablets are needed?",
+    options: ["7 tablets", "14 tablets", "21 tablets", "28 tablets"],
+    correct: "14 tablets"
+  },
+  {
+    question: "The purpose of a pharmacy dispensing checklist is to…",
+    options: ["Reduce cost", "Ensure accuracy", "Increase sales", "Track inventory"],
+    correct: "Ensure accuracy"
+  },
+  {
+    question: "Which type of preparation is an aerosol?",
+    options: ["Solid", "Liquid", "Semisolid", "Gas"],
+    correct: "Gas"
+  },
+  {
+    question: "The term 'Q6H' on a prescription means…",
+    options: ["Every 4 hours", "Every 6 hours", "Twice daily", "As needed"],
+    correct: "Every 6 hours"
+  },
+  {
+    question: "Scenario: A prescription calls for 5 ml of a 200 mg/5 ml suspension of paracetamol QID for 3 days. How many mg of paracetamol are needed?",
+    options: ["1200 mg", "2400 mg", "3600 mg", "4800 mg"],
+    correct: "2400 mg"
+  },
+  {
+    question: "The purpose of a pharmacy dispensing software is to…",
+    options: ["Reduce cost", "Improve accuracy", "Increase sales", "Track patient history"],
+    correct: "Improve accuracy"
+  },
+  {
+    question: "Which dosage form is designed for parenteral administration?",
+    options: ["Tablet", "Syrup", "Injection", "Ointment"],
+    correct: "Injection"
+  },
+  {
+    question: "The storage condition for narcotic drugs is…",
+    options: ["Open shelf", "Locked cabinet", "Refrigerator", "Freezer"],
+    correct: "Locked cabinet"
+  },
+  {
+    question: "Scenario: A prescription reads 'Amoxicillin 500 mg capsules, 1 capsule TID for 7 days.' How many capsules are needed?",
+    options: ["7 capsules", "14 capsules", "21 capsules", "28 capsules"],
+    correct: "21 capsules"
+  },
+  {
+    question: "The purpose of a pharmacy stock reorder level is to…",
+    options: ["Reduce cost", "Prevent stockouts", "Increase sales", "Track patient history"],
+    correct: "Prevent stockouts"
+  },
+  {
+    question: "Which type of preparation is a tablet?",
+    options: ["Solid", "Liquid", "Semisolid", "Gas"],
+    correct: "Solid"
+  },
+  {
+    question: "The term 'Q8H' on a prescription means…",
+    options: ["Every 4 hours", "Every 6 hours", "Every 8 hours", "As needed"],
+    correct: "Every 8 hours"
+  },
+  {
+    question: "Scenario: A prescription calls for 10 ml of a 50 mg/5 ml suspension of azithromycin OD for 3 days. How many mg of azithromycin are needed?",
+    options: ["150 mg", "300 mg", "450 mg", "600 mg"],
+    correct: "300 mg"
+  },
+  {
+    question: "The purpose of a pharmacy dispensing protocol is to…",
+    options: ["Reduce cost", "Ensure consistency", "Increase sales", "Track patient history"],
+    correct: "Ensure consistency"
+  },
+  {
+    question: "Which dosage form is designed for oral inhalation?",
+    options: ["Tablet", "Syrup", "Inhaler", "Ointment"],
+    correct: "Inhaler"
+  },
+  {
+    question: "The storage condition for reconstituted antibiotics is…",
+    options: ["Room temperature", "Refrigerator (2–8°C)", "Freezer", "Above 25°C"],
+    correct: "Refrigerator (2–8°C)"
+  },
+  {
+    question: "Scenario: A prescription reads 'Cefuroxime 250 mg tablets, 1 tablet BID for 10 days.' How many tablets are needed?",
+    options: ["10 tablets", "20 tablets", "30 tablets", "40 tablets"],
+    correct: "20 tablets"
+  },
     {
       question:
         "How many milliliters of a 20% w/v solution can be made from 40g of active ingredient?",
