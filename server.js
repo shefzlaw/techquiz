@@ -227,6 +227,801 @@ app.get('/questions', async (req, res) => {
     options: ["23", "38", "18", "30"],
     correct: "18"
   },
+ {
+    question: "Choose the correct spelling of the word meaning 'a substance used to treat disease'.",
+    options: ["Medecine", "Medicine", "Medicene", "Medicin"],
+    correct: "Medicine"
+  },
+  {
+    question: "What is the past tense of the verb 'dispense'?",
+    options: ["Dispensed", "Dispensing", "Dispenses", "Dispense"],
+    correct: "Dispensed"
+  },
+  {
+    question: "Which word is a synonym for 'prescription'?",
+    options: ["Diagnosis", "Recipe", "Order", "Treatment"],
+    correct: "Order"
+  },
+  {
+    question: "Choose the correctly punctuated sentence.",
+    options: [
+      "The pharmacist, advised the patient to take the drug with food.",
+      "The pharmacist advised the patient to take the drug with food.",
+      "The pharmacist advised, the patient to take the drug with food.",
+      "The pharmacist advised the patient, to take the drug with food."
+    ],
+    correct: "The pharmacist advised the patient to take the drug with food."
+  },
+  {
+    question: "What is the plural form of 'syringe'?",
+    options: ["Syringes", "Syringies", "Syringe", "Syring"],
+    correct: "Syringes"
+  },
+  {
+    question: "Fill in the blank: The pharmacy technician ___ the medication accurately.",
+    options: ["dispense", "dispenses", "dispensing", "dispensed"],
+    correct: "dispensed"
+  },
+  {
+    question: "Which word is an antonym for 'effective' in a medical context?",
+    options: ["Successful", "Ineffective", "Efficient", "Potent"],
+    correct: "Ineffective"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The patient were given the wrong dosage.",
+      "The patient was given the wrong dosage.",
+      "The patient is given the wrong dosage.",
+      "The patient are given the wrong dosage."
+    ],
+    correct: "The patient was given the wrong dosage."
+  },
+  {
+    question: "What does the prefix 'anti-' mean in 'antibiotic'?",
+    options: ["Against", "With", "Before", "After"],
+    correct: "Against"
+  },
+  {
+    question: "Which word best completes the sentence: The pharmacist gave ___ instructions to the patient.",
+    options: ["clear", "clearly", "clearest", "clears"],
+    correct: "clear"
+  },
+  {
+    question: "What is the meaning of the word 'dosage' in pharmacy?",
+    options: ["The type of drug", "The amount of drug to be taken", "The side effect of a drug", "The storage of a drug"],
+    correct: "The amount of drug to be taken"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Pharmacist", "Pharmasist", "Pharmacyst", "Pharmecist"],
+    correct: "Pharmacist"
+  },
+  {
+    question: "Which sentence is in the active voice?",
+    options: [
+      "The prescription was filled by the technician.",
+      "The technician filled the prescription.",
+      "The prescription is being filled by the technician.",
+      "The prescription will be filled by the technician."
+    ],
+    correct: "The technician filled the prescription."
+  },
+  {
+    question: "What is the plural form of 'diagnosis'?",
+    options: ["Diagnosises", "Diagnoses", "Diagnosis", "Diagnos"],
+    correct: "Diagnoses"
+  },
+  {
+    question: "Fill in the blank: The patient must take the medication ___ a day.",
+    options: ["once", "ones", "one’s", "onse"],
+    correct: "once"
+  },
+  {
+    question: "Which word is a synonym for 'administer' in a pharmacy context?",
+    options: ["Prescribe", "Diagnose", "Give", "Store"],
+    correct: "Give"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The drugs was stored in a cool, dry place.",
+      "The drugs were stored in a cool, dry place.",
+      "The drugs is stored in a cool, dry place.",
+      "The drugs are stored in a cool, dry place."
+    ],
+    correct: "The drugs were stored in a cool, dry place."
+  },
+  {
+    question: "What does the suffix '-itis' mean in medical terms like 'tonsillitis'?",
+    options: ["Inflammation", "Infection", "Pain", "Swelling"],
+    correct: "Inflammation"
+  },
+  {
+    question: "Which word best completes the sentence: The pharmacy technician labeled the bottle ___ to avoid errors.",
+    options: ["careful", "carefully", "carefull", "care"],
+    correct: "carefully"
+  },
+  {
+    question: "What is the meaning of the word 'generic' in pharmacy?",
+    options: ["A brand-name drug", "A non-branded drug", "A controlled drug", "An expired drug"],
+    correct: "A non-branded drug"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Antibiotic", "Antibiotik", "Antibiotick", "Antybiotic"],
+    correct: "Antibiotic"
+  },
+  {
+    question: "Which sentence is in the passive voice?",
+    options: [
+      "The pharmacist dispensed the medication.",
+      "The medication was dispensed by the pharmacist.",
+      "The pharmacist is dispensing the medication.",
+      "The pharmacist will dispense the medication."
+    ],
+    correct: "The medication was dispensed by the pharmacist."
+  },
+  {
+    question: "What is the plural form of 'capsule'?",
+    options: ["Capsules", "Capsuls", "Capsule", "Capsul"],
+    correct: "Capsules"
+  },
+  {
+    question: "Fill in the blank: The pharmacist ___ the patient about side effects.",
+    options: ["advise", "advises", "advised", "advising"],
+    correct: "advised"
+  },
+  {
+    question: "Which word is an antonym for 'accurate' in a pharmacy context?",
+    options: ["Precise", "Correct", "Incorrect", "Effective"],
+    correct: "Incorrect"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The technician have checked the stock.",
+      "The technician has checked the stock.",
+      "The technician is checking the stock.",
+      "The technician are checking the stock."
+    ],
+    correct: "The technician has checked the stock."
+  },
+  {
+    question: "What does the prefix 'hypo-' mean in 'hypotension'?",
+    options: ["Above", "Below", "Before", "After"],
+    correct: "Below"
+  },
+  {
+    question: "Which word best completes the sentence: The prescription was written ___ by the doctor.",
+    options: ["clear", "clearly", "clearest", "clears"],
+    correct: "clearly"
+  },
+  {
+    question: "What is the meaning of the word 'contraindication' in pharmacy?",
+    options: ["A reason to use a drug", "A reason not to use a drug", "A drug’s side effect", "A drug’s dosage"],
+    correct: "A reason not to use a drug"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Vaccination", "Vacinattion", "Vaccinnation", "Vaxination"],
+    correct: "Vaccination"
+  },
+  {
+    question: "Which sentence uses correct subject-verb agreement?",
+    options: [
+      "The patients was given instructions.",
+      "The patients were given instructions.",
+      "The patients is given instructions.",
+      "The patients are given instructions."
+    ],
+    correct: "The patients were given instructions."
+  },
+  {
+    question: "What is the plural form of 'tablet'?",
+    options: ["Tablets", "Tablettes", "Tablet", "Tabl"],
+    correct: "Tablets"
+  },
+  {
+    question: "Fill in the blank: The pharmacy technician must work ___ under supervision.",
+    options: ["close", "closely", "closer", "closes"],
+    correct: "closely"
+  },
+  {
+    question: "Which word is a synonym for 'side effect' in pharmacy?",
+    options: ["Benefit", "Adverse effect", "Dosage", "Indication"],
+    correct: "Adverse effect"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The drug were dispensed yesterday.",
+      "The drug was dispensed yesterday.",
+      "The drug is dispensed yesterday.",
+      "The drug are dispensed yesterday."
+    ],
+    correct: "The drug was dispensed yesterday."
+  },
+  {
+    question: "What does the suffix '-logy' mean in 'pharmacology'?",
+    options: ["Study of", "Treatment of", "Inflammation of", "Pain of"],
+    correct: "Study of"
+  },
+  {
+    question: "Which word best completes the sentence: The technician recorded the data ___ in the logbook.",
+    options: ["accurate", "accurately", "accuracy", "accurates"],
+    correct: "accurately"
+  },
+  {
+    question: "What is the meaning of the word 'overdose' in pharmacy?",
+    options: ["Correct dose", "Excessive dose", "Low dose", "Expired dose"],
+    correct: "Excessive dose"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Prescription", "Prescripton", "Prescribtion", "Prescripsion"],
+    correct: "Prescription"
+  },
+  {
+    question: "Which sentence is grammatically correct?",
+    options: [
+      "The pharmacist explain the dosage to the patient.",
+      "The pharmacist explains the dosage to the patient.",
+      "The pharmacist explaining the dosage to the patient.",
+      "The pharmacist explained the dosage to the patients."
+    ],
+    correct: "The pharmacist explains the dosage to the patient."
+  },
+  {
+    question: "What is the plural form of 'vial'?",
+    options: ["Vials", "Viales", "Vial", "Vials"],
+    correct: "Vials"
+  },
+  {
+    question: "Fill in the blank: The patient was ___ about the drug’s side effects.",
+    options: ["inform", "informs", "informed", "informing"],
+    correct: "informed"
+  },
+  {
+    question: "Which word is an antonym for 'safe' in a pharmacy context?",
+    options: ["Secure", "Harmless", "Dangerous", "Effective"],
+    correct: "Dangerous"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The medications was stored properly.",
+      "The medications were stored properly.",
+      "The medications is stored properly.",
+      "The medications are stored properly."
+    ],
+    correct: "The medications were stored properly."
+  },
+  {
+    question: "What does the prefix 'hyper-' mean in 'hypertension'?",
+    options: ["Below", "Above", "Before", "After"],
+    correct: "Above"
+  },
+  {
+    question: "Which word best completes the sentence: The pharmacist spoke ___ to the patient.",
+    options: ["polite", "politely", "politeness", "polites"],
+    correct: "politely"
+  },
+  {
+    question: "What is the meaning of the word 'compliance' in pharmacy?",
+    options: ["Following dosage instructions", "Dispensing drugs", "Storing drugs", "Prescribing drugs"],
+    correct: "Following dosage instructions"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Therapeutic", "Theraputic", "Therapeautic", "Therapetic"],
+    correct: "Therapeutic"
+  },
+  {
+    question: "Which sentence uses correct punctuation?",
+    options: [
+      "The technician, checked the prescription carefully.",
+      "The technician checked, the prescription carefully.",
+      "The technician checked the prescription carefully.",
+      "The technician checked the prescription, carefully."
+    ],
+    correct: "The technician checked the prescription carefully."
+  },
+  {
+    question: "What is the plural form of 'dose'?",
+    options: ["Doses", "Dosies", "Dose", "Dosis"],
+    correct: "Doses"
+  },
+  {
+    question: "Fill in the blank: The pharmacy technician ___ the patient’s records daily.",
+    options: ["update", "updates", "updated", "updating"],
+    correct: "updates"
+  },
+  {
+    question: "Which word is a synonym for 'instructions' in a pharmacy context?",
+    options: ["Diagnosis", "Directions", "Prescription", "Treatment"],
+    correct: "Directions"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The patient take the drug twice daily.",
+      "The patient takes the drug twice daily.",
+      "The patient taking the drug twice daily.",
+      "The patient taken the drug twice daily."
+    ],
+    correct: "The patient takes the drug twice daily."
+  },
+  {
+    question: "What does the suffix '-pathy' mean in 'neuropathy'?",
+    options: ["Study of", "Disease of", "Inflammation of", "Treatment of"],
+    correct: "Disease of"
+  },
+  {
+    question: "Which word best completes the sentence: The technician handled the equipment ___ to avoid damage.",
+    options: ["careful", "carefully", "carefull", "care"],
+    correct: "carefully"
+  },
+  {
+    question: "What is the meaning of the word 'indication' in pharmacy?",
+    options: ["A reason to use a drug", "A reason not to use a drug", "A drug’s side effect", "A drug’s dosage"],
+    correct: "A reason to use a drug"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Pharmacy", "Pharmecy", "Pharmaci", "Pharmasy"],
+    correct: "Pharmacy"
+  },
+  {
+    question: "Which sentence is in the active voice?",
+    options: [
+      "The drug was dispensed by the technician.",
+      "The technician dispensed the drug.",
+      "The drug is being dispensed by the technician.",
+      "The drug will be dispensed by the technician."
+    ],
+    correct: "The technician dispensed the drug."
+  },
+  {
+    question: "What is the plural form of 'injection'?",
+    options: ["Injections", "Injects", "Injection", "Inject"],
+    correct: "Injections"
+  },
+  {
+    question: "Fill in the blank: The pharmacist ___ the patient’s concerns promptly.",
+    options: ["address", "addresses", "addressed", "addressing"],
+    correct: "addressed"
+  },
+  {
+    question: "Which word is an antonym for 'clear' in a pharmacy context?",
+    options: ["Vague", "Precise", "Accurate", "Readable"],
+    correct: "Vague"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The prescriptions was processed quickly.",
+      "The prescriptions were processed quickly.",
+      "The prescriptions is processed quickly.",
+      "The prescriptions are processed quickly."
+    ],
+    correct: "The prescriptions were processed quickly."
+  },
+  {
+    question: "What does the prefix 'intra-' mean in 'intravenous'?",
+    options: ["Outside", "Within", "Before", "After"],
+    correct: "Within"
+  },
+  {
+    question: "Which word best completes the sentence: The technician labeled the medication ___ for clarity.",
+    options: ["clear", "clearly", "clearest", "clears"],
+    correct: "clearly"
+  },
+  {
+    question: "What is the meaning of the word 'adherence' in pharmacy?",
+    options: ["Following medical advice", "Dispensing drugs", "Storing drugs", "Prescribing drugs"],
+    correct: "Following medical advice"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Dispense", "Dispence", "Despense", "Dispanse"],
+    correct: "Dispense"
+  },
+  {
+    question: "Which sentence uses correct subject-verb agreement?",
+    options: [
+      "The technician were responsible for the error.",
+      "The technician was responsible for the error.",
+      "The technician is responsible for the error.",
+      "The technician are responsible for the error."
+    ],
+    correct: "The technician was responsible for the error."
+  },
+  {
+    question: "What is the plural form of 'pill'?",
+    options: ["Pills", "Pilles", "Pill", "Pils"],
+    correct: "Pills"
+  },
+  {
+    question: "Fill in the blank: The patient ___ the medication as directed.",
+    options: ["take", "takes", "taken", "taking"],
+    correct: "takes"
+  },
+  {
+    question: "Which word is a synonym for 'dosage' in pharmacy?",
+    options: ["Amount", "Diagnosis", "Prescription", "Treatment"],
+    correct: "Amount"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The pharmacist advise the patient daily.",
+      "The pharmacist advises the patient daily.",
+      "The pharmacist advising the patient daily.",
+      "The pharmacist advised the patient daily."
+    ],
+    correct: "The pharmacist advises the patient daily."
+  },
+  {
+    question: "What does the suffix '-ectomy' mean in 'appendectomy'?",
+    options: ["Study of", "Removal of", "Inflammation of", "Disease of"],
+    correct: "Removal of"
+  },
+  {
+    question: "Which word best completes the sentence: The technician worked ___ to ensure accuracy.",
+    options: ["careful", "carefully", "carefull", "care"],
+    correct: "carefully"
+  },
+  {
+    question: "What is the meaning of the word 'therapeutic' in pharmacy?",
+    options: ["Harmful", "Healing", "Expired", "Generic"],
+    correct: "Healing"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Syringe", "Syrnge", "Seringe", "Syring"],
+    correct: "Syringe"
+  },
+  {
+    question: "Which sentence is in the passive voice?",
+    options: [
+      "The technician labeled the bottle.",
+      "The bottle was labeled by the technician.",
+      "The technician is labeling the bottle.",
+      "The technician will label the bottle."
+    ],
+    correct: "The bottle was labeled by the technician."
+  },
+  {
+    question: "What is the plural form of 'prescription'?",
+    options: ["Prescriptions", "Prescriptons", "Prescription", "Prescribtions"],
+    correct: "Prescriptions"
+  },
+  {
+    question: "Fill in the blank: The pharmacist ___ the patient’s dosage instructions.",
+    options: ["explain", "explains", "explained", "explaining"],
+    correct: "explained"
+  },
+  {
+    question: "Which word is an antonym for 'effective' in a pharmacy context?",
+    options: ["Successful", "Ineffective", "Efficient", "Potent"],
+    correct: "Ineffective"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The drugs was checked for expiry dates.",
+      "The drugs were checked for expiry dates.",
+      "The drugs is checked for expiry dates.",
+      "The drugs are checked for expiry dates."
+    ],
+    correct: "The drugs were checked for expiry dates."
+  },
+  {
+    question: "What does the prefix 'anti-' mean in 'antihistamine'?",
+    options: ["Against", "With", "Before", "After"],
+    correct: "Against"
+  },
+  {
+    question: "Which word best completes the sentence: The technician recorded the patient’s details ___ in the system.",
+    options: ["accurate", "accurately", "accuracy", "accurates"],
+    correct: "accurately"
+  },
+  {
+    question: "What is the meaning of the word 'generic' in pharmacy?",
+    options: ["A brand-name drug", "A non-branded drug", "A controlled drug", "An expired drug"],
+    correct: "A non-branded drug"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Pharmacology", "Pharmocology", "Pharmacolgy", "Pharmcology"],
+    correct: "Pharmacology"
+  },
+  {
+    question: "Which sentence uses correct punctuation?",
+    options: [
+      "The pharmacist, explained the instructions clearly.",
+      "The pharmacist explained, the instructions clearly.",
+      "The pharmacist explained the instructions clearly.",
+      "The pharmacist explained the instructions, clearly."
+    ],
+    correct: "The pharmacist explained the instructions clearly."
+  },
+  {
+    question: "What is the plural form of 'capsule'?",
+    options: ["Capsules", "Capsuls", "Capsule", "Capsul"],
+    correct: "Capsules"
+  },
+  {
+    question: "Fill in the blank: The patient must ___ the dosage instructions carefully.",
+    options: ["follow", "follows", "followed", "following"],
+    correct: "follow"
+  },
+  {
+    question: "Which word is a synonym for 'side effect' in pharmacy?",
+    options: ["Benefit", "Adverse effect", "Dosage", "Indication"],
+    correct: "Adverse effect"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The technician were responsible for dispensing.",
+      "The technician was responsible for dispensing.",
+      "The technician is responsible for dispensing.",
+      "The technician are responsible for dispensing."
+    ],
+    correct: "The technician was responsible for dispensing."
+  },
+  {
+    question: "What does the suffix '-itis' mean in 'hepatitis'?",
+    options: ["Inflammation", "Infection", "Pain", "Swelling"],
+    correct: "Inflammation"
+  },
+  {
+    question: "Which word best completes the sentence: The pharmacist communicated ___ with the patient.",
+    options: ["clear", "clearly", "clearest", "clears"],
+    correct: "clearly"
+  },
+  {
+    question: "What is the meaning of the word 'contraindication' in pharmacy?",
+    options: ["A reason to use a drug", "A reason not to use a drug", "A drug’s side effect", "A drug’s dosage"],
+    correct: "A reason not to use a drug"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Vaccination", "Vacinattion", "Vaccinnation", "Vaxination"],
+    correct: "Vaccination"
+  },
+  {
+    question: "Which sentence is grammatically correct?",
+    options: [
+      "The patient receive the medication daily.",
+      "The patient receives the medication daily.",
+      "The patient receiving the medication daily.",
+      "The patient received the medication daily."
+    ],
+    correct: "The patient receives the medication daily."
+  },
+  {
+    question: "What is the plural form of 'syringe'?",
+    options: ["Syringes", "Syringies", "Syringe", "Syring"],
+    correct: "Syringes"
+  },
+  {
+    question: "Fill in the blank: The technician ___ the prescription for errors.",
+    options: ["check", "checks", "checked", "checking"],
+    correct: "checked"
+  },
+  {
+    question: "Which word is an antonym for 'safe' in a pharmacy context?",
+    options: ["Secure", "Harmless", "Dangerous", "Effective"],
+    correct: "Dangerous"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The medications was dispensed correctly.",
+      "The medications were dispensed correctly.",
+      "The medications is dispensed correctly.",
+      "The medications are dispensed correctly."
+    ],
+    correct: "The medications were dispensed correctly."
+  },
+  {
+    question: "What does the prefix 'hypo-' mean in 'hypoglycemia'?",
+    options: ["Above", "Below", "Before", "After"],
+    correct: "Below"
+  },
+  {
+    question: "Which word best completes the sentence: The technician labeled the bottle ___ to avoid confusion.",
+    options: ["clear", "clearly", "clearest", "clears"],
+    correct: "clearly"
+  },
+  {
+    question: "What is the meaning of the word 'adherence' in pharmacy?",
+    options: ["Following medical advice", "Dispensing drugs", "Storing drugs", "Prescribing drugs"],
+    correct: "Following medical advice"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Therapeutic", "Theraputic", "Therapeautic", "Therapetic"],
+    correct: "Therapeutic"
+  },
+  {
+    question: "Which sentence uses correct subject-verb agreement?",
+    options: [
+      "The pharmacists was trained in dispensing.",
+      "The pharmacists were trained in dispensing.",
+      "The pharmacists is trained in dispensing.",
+      "The pharmacists are trained in dispensing."
+    ],
+    correct: "The pharmacists were trained in dispensing."
+  },
+  {
+    question: "What is the plural form of 'vial'?",
+    options: ["Vials", "Viales", "Vial", "Vials"],
+    correct: "Vials"
+  },
+  {
+    question: "Fill in the blank: The patient was ___ about the proper use of the drug.",
+    options: ["inform", "informs", "informed", "informing"],
+    correct: "informed"
+  },
+  {
+    question: "Which word is a synonym for 'instructions' in a pharmacy context?",
+    options: ["Diagnosis", "Directions", "Prescription", "Treatment"],
+    correct: "Directions"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The drug were stored in a locked cabinet.",
+      "The drug was stored in a locked cabinet.",
+      "The drug is stored in a locked cabinet.",
+      "The drug are stored in a locked cabinet."
+    ],
+    correct: "The drug was stored in a locked cabinet."
+  },
+  {
+    question: "What does the suffix '-pathy' mean in 'cardiomyopathy'?",
+    options: ["Study of", "Disease of", "Inflammation of", "Treatment of"],
+    correct: "Disease of"
+  },
+  {
+    question: "Which word best completes the sentence: The technician handled the prescription ___ to ensure accuracy.",
+    options: ["careful", "carefully", "carefull", "care"],
+    correct: "carefully"
+  },
+  {
+    question: "What is the meaning of the word 'overdose' in pharmacy?",
+    options: ["Correct dose", "Excessive dose", "Low dose", "Expired dose"],
+    correct: "Excessive dose"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Dispense", "Dispence", "Despense", "Dispanse"],
+    correct: "Dispense"
+  },
+  {
+    question: "Which sentence is in the active voice?",
+    options: [
+      "The prescription was processed by the technician.",
+      "The technician processed the prescription.",
+      "The prescription is being processed by the technician.",
+      "The prescription will be processed by the technician."
+    ],
+    correct: "The technician processed the prescription."
+  },
+  {
+    question: "What is the plural form of 'dose'?",
+    options: ["Doses", "Dosies", "Dose", "Dosis"],
+    correct: "Doses"
+  },
+  {
+    question: "Fill in the blank: The pharmacist ___ the patient’s questions clearly.",
+    options: ["answer", "answers", "answered", "answering"],
+    correct: "answered"
+  },
+  {
+    question: "Which word is an antonym for 'clear' in a pharmacy context?",
+    options: ["Vague", "Precise", "Accurate", "Readable"],
+    correct: "Vague"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The medications was labeled correctly.",
+      "The medications were labeled correctly.",
+      "The medications is labeled correctly.",
+      "The medications are labeled correctly."
+    ],
+    correct: "The medications were labeled correctly."
+  },
+  {
+    question: "What does the prefix 'intra-' mean in 'intramuscular'?",
+    options: ["Outside", "Within", "Before", "After"],
+    correct: "Within"
+  },
+  {
+    question: "Which word best completes the sentence: The pharmacist communicated ___ with the team.",
+    options: ["effective", "effectively", "effectiveness", "effects"],
+    correct: "effectively"
+  },
+  {
+    question: "What is the meaning of the word 'indication' in pharmacy?",
+    options: ["A reason to use a drug", "A reason not to use a drug", "A drug’s side effect", "A drug’s dosage"],
+    correct: "A reason to use a drug"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Pharmacy", "Pharmecy", "Pharmaci", "Pharmasy"],
+    correct: "Pharmacy"
+  },
+  {
+    question: "Which sentence uses correct punctuation?",
+    options: [
+      "The technician, dispensed the drug accurately.",
+      "The technician dispensed, the drug accurately.",
+      "The technician dispensed the drug accurately.",
+      "The technician dispensed the drug, accurately."
+    ],
+    correct: "The technician dispensed the drug accurately."
+  },
+  {
+    question: "What is the plural form of 'tablet'?",
+    options: ["Tablets", "Tablettes", "Tablet", "Tabl"],
+    correct: "Tablets"
+  },
+  {
+    question: "Fill in the blank: The patient must ___ the medication as prescribed.",
+    options: ["take", "takes", "taken", "taking"],
+    correct: "take"
+  },
+  {
+    question: "Which word is a synonym for 'dosage' in pharmacy?",
+    options: ["Amount", "Diagnosis", "Prescription", "Treatment"],
+    correct: "Amount"
+  },
+  {
+    question: "Choose the correct sentence.",
+    options: [
+      "The pharmacist advise the patient on storage.",
+      "The pharmacist advises the patient on storage.",
+      "The pharmacist advising the patient on storage.",
+      "The pharmacist advised the patient on storage."
+    ],
+    correct: "The pharmacist advises the patient on storage."
+  },
+  {
+    question: "What does the suffix '-ectomy' mean in 'hysterectomy'?",
+    options: ["Study of", "Removal of", "Inflammation of", "Disease of"],
+    correct: "Removal of"
+  },
+  {
+    question: "Which word best completes the sentence: The technician checked the stock ___ to avoid errors.",
+    options: ["careful", "carefully", "carefull", "care"],
+    correct: "carefully"
+  },
+  {
+    question: "What is the meaning of the word 'therapeutic' in pharmacy?",
+    options: ["Harmful", "Healing", "Expired", "Generic"],
+    correct: "Healing"
+  },
+  {
+    question: "Choose the correctly spelled word.",
+    options: ["Syringe", "Syrnge", "Seringe", "Syring"],
+    correct: "Syringe"
+  },
+  {
+    question: "Which sentence is in the passive voice?",
+    options: [
+      "The technician dispensed the medication.",
+      "The medication was dispensed by the technician.",
+      "The technician is dispensing the medication.",
+      "The technician will dispense the medication."
+    ],
+    correct: "The medication was dispensed by the technician."
+  },
   {
     question: "Of all the language skills,……………………… is the most important",
     options: ["Listening", "Speaking", "Reading", "Writing"],
