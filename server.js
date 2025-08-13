@@ -12955,6 +12955,506 @@ app.get('/questions', async (req, res) => {
       correct: "Femur",
     },
     {
+    question: "Gall bladder is important to digestion of ___",
+    options: ["Glycogen", "Starch", "Fats", "Protein"],
+    correct: "Fats"
+  },
+  {
+    question: "___ pumps blood into systematic circulation",
+    options: ["Left ventricle", "Left atrium", "Central ventricle", "Pulmonary artery"],
+    correct: "Left ventricle"
+  },
+  {
+    question: "Absorption of nutrient during digestive process is a function of………",
+    options: ["Tongue", "Small intestine", "Small and large intestine", "Mouth"],
+    correct: "Small intestine"
+  },
+  {
+    question: "During the process of oogenesis in sexually reproductive organisms……degenerate",
+    options: ["Oogonia", "Spermatids", "Haploid eggs", "ootid"],
+    correct: "Oogonia"
+  },
+  {
+    question: "The pancreatic juice consist of the following chemicals except………..",
+    options: ["Water", "Mineral salt", "Bile", "Enzymes"],
+    correct: "Bile"
+  },
+  {
+    question: "One of the following structures is otherwise known as wind pipe ………",
+    options: ["Lungs", "Bronchiole", "Trachea", "Larynx"],
+    correct: "Trachea"
+  },
+  {
+    question: "The type of pharynx that is connected to the nasal cavity is referred to as ……",
+    options: ["Oro pharynx", "Nasopharynx", "Laryngopharynx", "larynx"],
+    correct: "Nasopharynx"
+  },
+  {
+    question: "……… constitute the outermost layer for the eyes",
+    options: ["pupil", "Conjunctiva", "Selera", "Retina"],
+    correct: "Selera"
+  },
+  {
+    question: "The inner most layer of the eye is called………",
+    options: ["Retina", "Lens", "Cornea", "Iris"],
+    correct: "Retina"
+  },
+  {
+    question: "The organs responsible for the sense of olfaction is known as",
+    options: ["Lungs", "Trachea", "Nose", "mouth"],
+    correct: "Nose"
+  },
+  {
+    question: "The renal and hepatic artery supply blood to……",
+    options: ["Kidney and bladder", "Liver and lungs", "kidneys and liver", "Liver and stomach"],
+    correct: "kidneys and liver"
+  },
+  {
+    question: "Warmness, moisturing, and filtering of air that passes to the lungs is a function of",
+    options: ["Mouth", "Nasal cavity", "Abdominal cavity", "Pharynx only"],
+    correct: "Nasal cavity"
+  },
+  {
+    question: "Hormone implicated in development of secondary sexual characteristics in male is ______",
+    options: ["Oestrogen", "LH", "Testosterone", "Growth hormone"],
+    correct: "Testosterone"
+  },
+  {
+    question: "Menarche is closely related to ______",
+    options: ["Starvation", "Menstruation", "Intubation", "GH"],
+    correct: "Menstruation"
+  },
+  {
+    question: "The part of uterus that undergoes cyclical change in uterine cycle is ______",
+    options: ["Endometrium", "Myometrium", "Oocyte", "Perimetrium"],
+    correct: "Endometrium"
+  },
+  {
+    question: "Menstruation is a phase in ______",
+    options: ["Uterine cycle", "Ovarian cycle", "Mental cycle", "Androgen cycle"],
+    correct: "Uterine cycle"
+  },
+  {
+    question: "______ is responsible for normal quiet respiration",
+    options: ["Levator muscle", "Lattismus dorsi", "Diaphragm", "Ext. Intercostal"],
+    correct: "Diaphragm"
+  },
+  {
+    question: "Hormone is secreted by glands into ______",
+    options: ["Blood", "Interstitial space", "Gut", "ICF"],
+    correct: "Blood"
+  },
+  {
+    question: "Gigantism results from abnormality of ______ hormone",
+    options: ["Growth", "Prolactin", "Oxytocin", "FSH"],
+    correct: "Growth"
+  },
+  {
+    question: "Haploid (n) number of chromosomes is associated with ______ cell division",
+    options: ["Meiotic", "DNA", "Miotic", "Binary"],
+    correct: "Meiotic"
+  },
+  {
+    question: "Mitosis results in 2 daughter cells containing ______ number of chromosomes",
+    options: ["23", "32", "46", "50"],
+    correct: "46"
+  },
+  {
+    question: "Liquid portion of human blood is ______",
+    options: ["Erythrocytes", "Plasma", "Platelets", "WBC"],
+    correct: "Plasma"
+  },
+  {
+    question: "Spinal cord is located in ______ body cavity",
+    options: ["Lateral", "Posterior", "Anterior", "Distal"],
+    correct: "Posterior"
+  },
+  {
+    question: "A primary organ of respiration located in ventral body cavity is ______",
+    options: ["Heart", "Lungs", "Brain", "Stomach"],
+    correct: "Lungs"
+  },
+  {
+    question: "The volume of air inspired or expired with each normal breath is ______",
+    options: ["Inspired volume", "Tidal volume", "Reserved volume", "Peak volume"],
+    correct: "Tidal volume"
+  },
+  {
+    question: "Uterus is an organ of ______",
+    options: ["Excretion", "Respiration", "Reproduction", "Coitus"],
+    correct: "Reproduction"
+  },
+  {
+    question: "Congenital deficiency of melanin is termed",
+    options: ["Albinism", "Vitiligo", "Eczema", "Melanism"],
+    correct: "Albinism"
+  },
+  {
+    question: "CNS consists of ______ and spinal cord",
+    options: ["Eyes", "Heart", "Brain", "Capsules"],
+    correct: "Brain"
+  },
+  {
+    question: "Cellular components of blood includes ______",
+    options: ["Leucocytes", "Lymph", "Arteries", "Plasma"],
+    correct: "Leucocytes"
+  },
+  {
+    question: "______ is an example of gland",
+    options: ["Pancreas", "Hair", "Blood", "Teeth"],
+    correct: "Pancreas"
+  },
+  {
+    question: "Reduced secretion of insulin will result in ______",
+    options: ["Diabetes insipidus", "Diabetes mellitus", "Anaemia", "Obesity"],
+    correct: "Diabetes mellitus"
+  },
+  {
+    question: "Skeleton is important in the following except",
+    options: ["Blood production", "Muscular attachments", "Basis for movements", "Reproduction"],
+    correct: "Reproduction"
+  },
+  {
+    question: "Proteolytic enzymes produced by pancreas include the followings except",
+    options: ["Trypsin", "Chymotrypsin", "Carboxypeptidases", "lipase"],
+    correct: "lipase"
+  },
+  {
+    question: "Mechanisms of transport in cells include the following except",
+    options: ["Diffusion", "Osmosis", "Active transport", "Phagocytosis"],
+    correct: "Phagocytosis"
+  },
+  {
+    question: "Substances re-absorbed during urine production does not include ______",
+    options: ["Water", "Glucose", "Na+", "Uric Acid"],
+    correct: "Uric Acid"
+  },
+  {
+    question: "Primary organs of digestion exclude ______",
+    options: ["Mouth", "Stomach", "Small intestine", "Gall Bladder"],
+    correct: "Gall Bladder"
+  },
+  {
+    question: "Which is not an organ of excretion ______",
+    options: ["Kidney", "Lungs", "Skin", "Mouth"],
+    correct: "Mouth"
+  },
+  {
+    question: "Excretory products exclude ______",
+    options: ["Sweat", "Urea", "Carbon dioxide", "Lymph"],
+    correct: "Lymph"
+  },
+  {
+    question: "Facial nerve is ______",
+    options: ["CN VII", "CN II", "CN IV", "CN V"],
+    correct: "CN VII"
+  },
+  {
+    question: "Which is not an intracellular organelle",
+    options: ["Endoplasmic Reticulum", "Nucleus", "Ribosomes", "Cell membrane"],
+    correct: "Cell membrane"
+  },
+  {
+    question: "The central nervous system in human body consists of the brain and ……….",
+    options: ["Cell body", "Spinal cord", "Axons", "Neurons"],
+    correct: "Spinal cord"
+  },
+  {
+    question: "………. Carry information from body to the spinal cord",
+    options: ["Nerves fibers", "Neuroglia", "Receptors", "Detectors"],
+    correct: "Nerves fibers"
+  },
+  {
+    question: "A jelly- like material that constitutes about 80% of water in the cell is known as",
+    options: ["Cystoids", "Cytoplasm", "Cyclrome", "Plasma membrane"],
+    correct: "Cytoplasm"
+  },
+  {
+    question: "Mental activities such as intelligence, thinking, and sense of responsibility are functions of",
+    options: ["Hypothalamus", "Thalamus", "Cerebral cortex", "Dendrite and axon"],
+    correct: "Cerebral cortex"
+  },
+  {
+    question: "The basic unit of nervous system is called......",
+    options: ["Nephron", "Neuron", "Neutrons", "Ribosome"],
+    correct: "Neuron"
+  },
+  {
+    question: "One of the following hormones is secreted to prepare the breast for lactation after birth",
+    options: ["Prolactin", "Adrenaline", "Oxytocine", "D-Glucagon"],
+    correct: "Prolactin"
+  },
+  {
+    question: "When large food molecules are broken down into a form that is absorbable is called",
+    options: ["Ingestion", "Digestion", "Absorption", "Secretions"],
+    correct: "Digestion"
+  },
+  {
+    question: "The conversion of fibrinogen into fibrin to prevent further loss of blood is called",
+    options: ["Conversion", "Coagulation", "Networking", "Rupturing"],
+    correct: "Coagulation"
+  },
+  {
+    question: "Formation of ova and reception of spermatozoa are basic functions of......",
+    options: ["Male reproductive system", "Ovulation", "Female reproductive system", "Sperm"],
+    correct: "Female reproductive system"
+  },
+  {
+    question: "The smallest arteries break up into a number of minutes blood vessels referred to as",
+    options: ["Veins", "Capillaries", "Arterioles and venuoles", "Arterioles"],
+    correct: "Capillaries"
+  },
+  {
+    question: "The exchange of genetic materials in meiosis I is termed as",
+    options: ["crossing across", "exchange over", "crossing over", "metaphase"],
+    correct: "crossing over"
+  },
+  {
+    question: "Which of these organelles is responsible for protein synthesis?",
+    options: ["lysosome", "ribosome", "Mitochondrion", "secretory vesicle"],
+    correct: "ribosome"
+  },
+  {
+    question: "What is the basic functional and structural unit of the human body?",
+    options: ["cell membrane", "nephron", "neuron", "cell"],
+    correct: "cell"
+  },
+  {
+    question: "A collection of cells with any intercellular materials performing one or more function (s) is__.",
+    options: ["Epithelium", "Organ", "tissue", "cell clusters"],
+    correct: "tissue"
+  },
+  {
+    question: "A tissue type consisting of fat cells surrounded by reticular fibers are called__",
+    options: ["alveolar connective tissue", "lymphoid tissue", "adipose tissue", "astrocytes"],
+    correct: "adipose tissue"
+  },
+  {
+    question: "What type of muscle is found in the iris and anus?",
+    options: ["Smooth", "cardiac", "skeletal", "Sphincter"],
+    correct: "Smooth"
+  },
+  {
+    question: "What kind of epithelial tissue is found in the urinary bladder?",
+    options: ["cuboidal", "simple squamous", "Simple columnar", "transitional"],
+    correct: "transitional"
+  },
+  {
+    question: "The coronary arteries are found in the__.",
+    options: ["Lungs", "heart", "Kidneys", "adrenal glands"],
+    correct: "heart"
+  },
+  {
+    question: "Which of these blood cells carry oxygen?",
+    options: ["RBC", "WBC", "Platelets", "leukocytes"],
+    correct: "RBC"
+  },
+  {
+    question: "Blood leaves the left ventricle of the heart through ______.",
+    options: ["pulmonary artery", "SVC", "carotid artery", "aorta"],
+    correct: "aorta"
+  },
+  {
+    question: "One of these is responsible for the clotting of blood.",
+    options: ["WBC", "RBC", "platelets", "bilirubin"],
+    correct: "platelets"
+  },
+  {
+    question: "Which of the following can best be compared to soldiers of the body?",
+    options: ["RBC", "WBC", "Heart", "SA node"],
+    correct: "WBC"
+  },
+  {
+    question: "The genetic disease in which the blood does not clot is ______.",
+    options: ["Haemorrhage", "Haemolysis", "haemophilia", "aneurysm"],
+    correct: "haemophilia"
+  },
+  {
+    question: "There are ______.",
+    options: ["three main types of T cells", "five main types of T cells", "Four main types of T cells", "six main types of T cells"],
+    correct: "three main types of T cells"
+  },
+  {
+    question: "HIV that causes AIDS attack and infects ______.",
+    options: ["memory T cells", "regulatory T cells", "Cytotoxic T cells", "helper T cells"],
+    correct: "helper T cells"
+  },
+  {
+    question: "The functions of the Skeletal system include the following Except:",
+    options: ["Storage", "Movement", "Protection", "Phagocytosis"],
+    correct: "Phagocytosis"
+  },
+  {
+    question: "Bones are formed by a process called ______.",
+    options: ["ossification", "Solidification", "Osteosis", "hardening"],
+    correct: "ossification"
+  },
+  {
+    question: "The 'soft spots' on a new-born's skull before the sutures are formed is called ______.",
+    options: ["fontanelle", "occipito-fontaneles", "bregma", "frontal sinuses"],
+    correct: "fontanelle"
+  },
+  {
+    question: "What is the vertebra that the skull rests up on?",
+    options: ["Axis", "Atlas", "Coccyx", "C-3"],
+    correct: "Atlas"
+  },
+  {
+    question: "The sternum is otherwise called ______.",
+    options: ["thigh bone", "leg bone", "face bone", "breast bone"],
+    correct: "breast bone"
+  },
+  {
+    question: "Which of the following is a characteristic feature of cardiac muscle?",
+    options: ["non striated", "presence of smooth muscle tissue", "presence of branching cells with intercalated discs", "presence of nuclei"],
+    correct: "presence of branching cells with intercalated discs"
+  },
+  {
+    question: "The structural and functional unit of kidney is ______.",
+    options: ["Neuron", "nephron", "Axon", "glomerulus"],
+    correct: "nephron"
+  },
+  {
+    question: "The inflammation of the ureter due to the upwards spread of infection in cystitis is called.",
+    options: ["Urethritis", "Glomerites", "ureteritis", "glomerulonephritis"],
+    correct: "ureteritis"
+  },
+  {
+    question: "The micturition center is located in the ______.",
+    options: ["medulla oblongata", "mid brain", "pons", "hypothalamus"],
+    correct: "medulla oblongata"
+  },
+  {
+    question: "The kidneys are located in the ______.",
+    options: ["epigastric area", "hypochondriac area", "retroperitoneal area", "iliac area"],
+    correct: "retroperitoneal area"
+  },
+  {
+    question: "One of these is the site for gaseous exchange.",
+    options: ["Villi", "Neuron", "alveoli", "bronchi"],
+    correct: "alveoli"
+  },
+  {
+    question: "The inner surfaces of bronchioles and bronchi are lined by ______ epithelium",
+    options: ["columnar", "cuboidal", "pseudo stratified", "squamous"],
+    correct: "pseudo stratified"
+  },
+  {
+    question: "The roof of the nasal cavities is formed partly by ______.",
+    options: ["ethmoid bone", "hyaline cartilage", "sphenoid bone", "maxillary bone"],
+    correct: "ethmoid bone"
+  },
+  {
+    question: "The nerve sensitive to smell are called endings",
+    options: ["nasal nerve", "cutaneous nerve", "superficial nerve", "olfactory nerve"],
+    correct: "olfactory nerve"
+  },
+  {
+    question: "The larynx is otherwise called ______.",
+    options: ["voice box", "speech box", "sound box", "noise box"],
+    correct: "voice box"
+  },
+  {
+    question: "The left lung is divided into how many lobes?",
+    options: ["3", "4", "2", "5"],
+    correct: "2"
+  },
+  {
+    question: "The meninges are made up of how many layers?",
+    options: ["5", "4", "3", "2"],
+    correct: "3"
+  },
+  {
+    question: "The primary responsibility of the spinal cord is ______.",
+    options: ["to produce hormones", "to cushions the effect of friction", "to produce CSF", "to transmits impulses between the brain and the body"],
+    correct: "to transmits impulses between the brain and the body"
+  },
+  {
+    question: "Which of the following would NOT be produced by the sympathetic nervous system during the stress response?",
+    options: ["increased blood glucose level", "expanded airways", "inhibited digestive system", "slow heart rate"],
+    correct: "slow heart rate"
+  },
+  {
+    question: "How do neurotransmitters affect the post-synaptic neuron?",
+    options: ["they excite the neuron", "they either excite or inhibit the next neuron", "they inhibit the next neuron", "they remained in the synapse"],
+    correct: "they either excite or inhibit the next neuron"
+  },
+  {
+    question: "The beta cells of the pancreatic islets produce",
+    options: ["insulin", "Calcitonin", "Glucagon", "melatonin"],
+    correct: "insulin"
+  },
+  {
+    question: "The target of the hormone erythropoietin is _.",
+    options: ["platelet", "WBC", "left ventricle", "bone marrow"],
+    correct: "bone marrow"
+  },
+  {
+    question: "The hormone that opposes the function of parathyroid hormone is ______.",
+    options: ["thyroxine", "glucagon", "calcitonin", "insulin"],
+    correct: "calcitonin"
+  },
+  {
+    question: "An enlarged thyroid is the result of deficiency of ______.",
+    options: ["Iodine", "Calcium", "Potassium", "Sodium"],
+    correct: "Iodine"
+  },
+  {
+    question: "Glucagon is secreted by ______ cells",
+    options: ["beta", "alpha", "delta", "gamma"],
+    correct: "alpha"
+  },
+  {
+    question: "The two major divisions of the Autonomic nervous system (ANS) are",
+    options: ["Peripheral and Central nervous", "Voluntary and involuntary muscles", "Sympathetic and parasympathetic", "Neurons and neuroglia"],
+    correct: "Sympathetic and parasympathetic"
+  },
+  {
+    question: "One of these is not a main part of the human male reproductive system",
+    options: ["a pair of testes", "a network of tubules and tubes", "accessory sex glands", "the penis"],
+    correct: "the penis"
+  },
+  {
+    question: "In the testis spermatogenesis takes place in the ______.",
+    options: ["Leydig's cells", "rete testis", "efferent ductules", "seminiferous tubules"],
+    correct: "seminiferous tubules"
+  },
+  {
+    question: "The cap formed from the corpus spongiosum over the distal end of the penis is _.",
+    options: ["Glans", "prepuce", "bulbus", "root"],
+    correct: "Glans"
+  },
+  {
+    question: "Power house of a cell is ______.",
+    options: ["Cell wall", "Mitochondrion", "Nucleus", "Gel"],
+    correct: "Mitochondrion"
+  },
+  {
+    question: "Emulsification in formation of miscelles is related to digestion and absorption of ______.",
+    options: ["Carbohydrate", "Protein", "Fat", "Glucose"],
+    correct: "Fat"
+  },
+  {
+    question: "______ is an accessory organ of digestion",
+    options: ["Stomach", "Illum", "Liver", "Colon"],
+    correct: "Liver"
+  },
+  {
+    question: "After food has been thoroughly mixed in the stomach, it passes down the gut as ______.",
+    options: ["Mixture", "Chyme", "Effluent", "Secretion"],
+    correct: "Chyme"
+  },
+  {
+    question: "Digestion of protein begins in the ______.",
+    options: ["Mouth", "Oesophagus", "Stomach", "Duodenum"],
+    correct: "Stomach"
+  },
+  {
+    question: "The enzyme responsible for digestion of starch is",
+    options: ["Progestin", "Pepsinogen", "Amylase", "Pepsin"],
+    correct: "Amylase"
+  },
+    {
       question: "Which organ pumps blood?",
       options: ["Liver", "Heart", "Lung", "Kidney"],
       correct: "Heart",
