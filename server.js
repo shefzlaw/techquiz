@@ -12975,6 +12975,491 @@ app.get('/questions', async (req, res) => {
     correct: "Oogonia"
   },
   {
+    question: "Microbial activity, mass movement and defecation are functions of one of the following structures",
+    options: ["Large intestine", "Small intestine", "Liver", "Mouth"],
+    correct: "Large intestine"
+  },
+  {
+    question: "Detoxification of drugs and toxic substances is a function of",
+    options: ["Stomach", "Liver", "Bile", "Pancreases"],
+    correct: "Liver"
+  },
+  {
+    question: "Formation of ova and reception of spermatozoa are functions of:",
+    options: ["Ovulation", "Male reproductive system", "Female reproductive system", "Fertilization"],
+    correct: "Female reproductive system"
+  },
+  {
+    question: "The two large folds forming the boundary of the vulva is called:",
+    options: ["Labia majora", "Labia minora", "Clitoris", "Hymen"],
+    correct: "Labia majora"
+  },
+  {
+    question: "A thin layer of mucous membrane that partially occludes the vaginal opening is called:",
+    options: ["Clitoris", "Labia majora", "Hymen", "Labia minora"],
+    correct: "Hymen"
+  },
+  {
+    question: "Which of the following structure act as the receptacle for the penis during sexual intercourse?",
+    options: ["Vagina", "Uterus", "Cervix", "Ovaries"],
+    correct: "Vagina"
+  },
+  {
+    question: "A hollow muscular organ where the developing foetus gains nourishment is known as:",
+    options: ["Vagina", "Uterus", "Cervix", "Ovaries"],
+    correct: "Uterus"
+  },
+  {
+    question: "......is a pouch of deeply pigmented fibrous connective tissue and smooth muscle. It is where the testes are located and protected.",
+    options: ["Seminal vesicle", "Vas deferens", "Scrotum", "Epididymis"],
+    correct: "Scrotum"
+  },
+  {
+    question: "......secretes thin milky fluid that makes up about 30% of semen and gives it milky appearance",
+    options: ["Prostate gland", "Seminal vesicles", "Ejaculatory ducts", "Spermatic cord"],
+    correct: "Prostate gland"
+  },
+  {
+    question: "Portion of urinary system where the urine and sperm pass out of the body is known as:",
+    options: ["Uterus", "Uretina", "Uterine tube", "Testis"],
+    correct: "Uretina"
+  },
+  {
+    question: "The series of events that occur regularly during child bearing age is known as:",
+    options: ["Cell cycle", "Menstrual cycle", "Ovarian cycle", "Oogenesis"],
+    correct: "Menstrual cycle"
+  },
+  {
+    question: "The events that occur over a period of years and is caused by a progressive reduction in oestrogen levels result in:",
+    options: ["Menopause", "Puberty", "Ovulation", "Menstrual cycle"],
+    correct: "Menopause"
+  },
+  {
+    question: "......is a fluid connective tissue that circulates continually around the body, allowing constant communication between tissue distant from each other",
+    options: ["Bone", "Hormones", "Blood", "Water"],
+    correct: "Blood"
+  },
+  {
+    question: "The smallest arteries break up into a number of minute vessels called:",
+    options: ["Veins", "Venules", "Capillaries", "Arterioles"],
+    correct: "Capillaries"
+  },
+  {
+    question: "Which of the following heart chamber receives blood from the veins and pumps into the right ventricle?",
+    options: ["Right atrium", "Left atrium", "Right ventricle", "Left ventricle"],
+    correct: "Right atrium"
+  },
+  {
+    question: "The strongest chamber of the heart is called:",
+    options: ["Right", "Left atrium", "Right ventricle", "Left ventricle"],
+    correct: "Left ventricle"
+  },
+  {
+    question: "Which of the structure is called the voice box?",
+    options: ["Trachea", "Pharynx", "Larynx", "Bronchi"],
+    correct: "Larynx"
+  },
+  {
+    question: "The organs that involve in both the respiratory and digestive system is called",
+    options: ["Lungs", "Pharynx", "Larynx", "Trachea"],
+    correct: "Pharynx"
+  },
+  {
+    question: "Which of the following structure is known as the wind pipe?",
+    options: ["Lung", "Bronchi", "Pharynx", "Trachea"],
+    correct: "Trachea"
+  },
+  {
+    question: "The process by which oxygen and carbon dioxide are carried in blood is known as:",
+    options: ["Breathing", "Respiration", "Transportation", "Diffusion"],
+    correct: "Transportation"
+  },
+  {
+    question: "Which of the following urinary structures conveys urine from the kidney to the urinary bladder?",
+    options: ["Ureter", "Urethra", "Renal vein", "Renal artery"],
+    correct: "Ureter"
+  },
+  {
+    question: "The organ through which the urine passes from the bladder to the exterior is known as:",
+    options: ["Kidney", "Ureter", "Urethra", "Pancreas"],
+    correct: "Urethra"
+  },
+  {
+    question: "The structure that consists of a tubule closed at one end with the other end opening into another collecting tubule is known as:",
+    options: ["Kidney", "Renal pelvis", "Nephron"],
+    correct: "Nephron"
+  },
+  {
+    question: "The following processes involve urine formation except:",
+    options: ["Filtration", "Electrolyte balance", "Tubular secretion", "Electrolyte"],
+    correct: "Electrolyte"
+  },
+  {
+    question: "One of these is not a bone of the cranium",
+    options: ["Frontal bone", "Parietal bone", "Ethmoid bone", "Maxilla"],
+    correct: "Maxilla"
+  },
+  {
+    question: "......is a reservoir of the urine.",
+    options: ["Stomach", "Bladder", "Ureter", "Spleen"],
+    correct: "Bladder"
+  },
+  {
+    question: "Which part of the ear contains the organs of hearing and balance?",
+    options: ["Outer ear", "Middle ear", "Tympanic cavity", "Inner ear"],
+    correct: "Inner ear"
+  },
+  {
+    question: "The eye is situated in the orbital cavity and innervated by:",
+    options: ["Facial nerve", "Optic nerve", "Abducent nerve", "Vagus nerves"],
+    correct: "Optic nerve"
+  },
+  {
+    question: "The outer fibrous layer of the eye consists of sclera and:",
+    options: ["Iris", "Choroid", "Retina", "Cornea"],
+    correct: "Cornea"
+  },
+  {
+    question: "......is a highly elastic circular biconvex body lying immediately behind the pupil",
+    options: ["Choroid", "Lens", "Iris", "Sclera"],
+    correct: "Lens"
+  },
+  {
+    question: "The inner most layer of the eye is known as:",
+    options: ["Retina", "Cornea", "Lens", "Iris"],
+    correct: "Retina"
+  },
+  {
+    question: "Which of the following layers of eye called the uveal tract?",
+    options: ["The inter fibrous layer", "The middle vascular layer", "The limousine"],
+    correct: "The middle vascular layer"
+  },
+  {
+    question: "A fine transparent membrane that lines the eyelids and the front of the eye ball is called:",
+    options: ["Pupil", "Conjunctiva", "Solera", "Retina"],
+    correct: "Conjunctiva"
+  },
+  {
+    question: "The photosensitive part of the eye is a function of one of the following structures",
+    options: ["Conjunctiva", "Pupil", "Retina", "Choroid"],
+    correct: "Retina"
+  },
+  {
+    question: "The two movable folds of tissue situated above and below the front of each eye is known as:",
+    options: ["Eye ball", "Eyelids", "Conjunctiva", "Solera"],
+    correct: "Eyelids"
+  },
+  {
+    question: "The cranial nerve that rotates the eye ball upwards and outwards is called",
+    options: ["Facia nerve", "Optic nerve", "Trochlear nerve", "Oculomotor nerve"],
+    correct: "Oculomotor nerve"
+  },
+  {
+    question: "The visible coloured part of the eye is known as:",
+    options: ["Choroid", "Iris", "Eye lids", "Eye ball"],
+    correct: "Iris"
+  },
+  {
+    question: "Which of the following eye structures protect eye from injury?",
+    options: ["Solera and cornea", "Iris and lens", "Choroid and pupil", "eyelids and eye lashes"],
+    correct: "eyelids and eye lashes"
+  },
+  {
+    question: "The brain is surrounded by layers of tissue called......",
+    options: ["The cerebellum", "Cerebral cortex", "Hypothalamus", "Meninges"],
+    correct: "Meninges"
+  },
+  {
+    question: "Which of the following structure protects the brain from injury?",
+    options: ["The cranium", "Thalamus", "Hypothalamus"],
+    correct: "The cranium"
+  },
+  {
+    question: "Which parts of the teeth are responsible for grinding of food?",
+    options: ["Canine", "Incisors", "Molar", "Premolar"],
+    correct: "Molar"
+  },
+  {
+    question: "The largest cavity of the body is known as:",
+    options: ["Oral cavity", "Abdominal cavity", "Pelvic cavity", "Nasal cavity"],
+    correct: "Abdominal cavity"
+  },
+  {
+    question: "Functions of the centrioles is",
+    options: ["Cell division", "Stores protein", "Synthesis protein", "Produce energy"],
+    correct: "Cell division"
+  },
+  {
+    question: "Function of the mitochondria is:",
+    options: ["Detoxification", "Phagocytosis", "Produce protein", "Produce energy"],
+    correct: "Produce energy"
+  },
+  {
+    question: "One of these is not a stage in cell division",
+    options: ["Metaphase", "Intraphase", "Anaphase", "Telophase"],
+    correct: "Intraphase"
+  },
+  {
+    question: "One of these is not an example of connective tissue",
+    options: ["Blood", "Bone", "Cartilage", "Muscle"],
+    correct: "Muscle"
+  },
+  {
+    question: "Tissue macrophage is regarded as",
+    options: ["Rbc", "Platelets", "Wbc", "Thrombocyte"],
+    correct: "Wbc"
+  },
+  {
+    question: "One of these is not regarded as ECF",
+    options: ["Plasma", "Tissue fluid", "Sweat", "Hypertonic solution"],
+    correct: "Hypertonic solution"
+  },
+  {
+    question: "One of these is the major ion found in the ECF",
+    options: ["Na+", "K+", "Dhaminate"],
+    correct: "Na+"
+  },
+  {
+    question: "One of these is not found in the abdominal cavity",
+    options: ["Rectum", "Stomach", "Small intestine", "Spleen"],
+    correct: "Rectum"
+  },
+  {
+    question: "One of these is not a function of the femur",
+    options: ["Stores calcium and phosphate", "Produce blood", "Provide a surface for the attachment of muscles", "Stores protein"],
+    correct: "Stores protein"
+  },
+  {
+    question: "The Olecranon process is found on one of these bones",
+    options: ["Femur", "Radius", "Ulna", "Clavicle"],
+    correct: "Ulna"
+  },
+  {
+    question: "The total number of vertebrae is",
+    options: ["30", "33", "34", "35"],
+    correct: "33"
+  },
+  {
+    question: "One of these bones can be felt subcutaneously from end to end",
+    options: ["Scapula", "Tibia", "Fibula", "Clavicle"],
+    correct: "Clavicle"
+  },
+  {
+    question: "The Obturator foramen is found in one of these bone",
+    options: ["Humerus", "Femur", "Calcaneum", "Pelvic bone"],
+    correct: "Pelvic bone"
+  },
+  {
+    question: "The number of bones in one hand is",
+    options: ["25", "26", "27", "28"],
+    correct: "27"
+  },
+  {
+    question: "An example of a sesamoid bone is",
+    options: ["Maxilla", "Nasal bone", "Lacrimal bone", "Patella"],
+    correct: "Patella"
+  },
+  {
+    question: "A muscle that is responsible for a definite action is described as",
+    options: ["Prime mover", "Synergist"],
+    correct: "Prime mover"
+  },
+  {
+    question: "The point of insertion for the sternocleidomastoid muscle is",
+    options: ["Sternum", "Clavicle", "Mastoid process", "Occipital bone"],
+    correct: "Mastoid process"
+  },
+  {
+    question: "The number of bones in the face is",
+    options: ["8", "10", "12", "14"],
+    correct: "14"
+  },
+  {
+    question: "……………………are specialized unit within the cell that have a specific foundation and is usually separately enclosed with it a lipid bilayer.",
+    options: ["Cell", "Tissue", "Organelles", "Organs"],
+    correct: "Organelles"
+  },
+  {
+    question: "Which of the following controls the movements of materials in and out of the cell?",
+    options: ["Cytoplasm", "Plasma membrane", "Ribosome", "Golgi apparatus"],
+    correct: "Plasma membrane"
+  },
+  {
+    question: "Which of the following contains genetic materials and directs all the activities?",
+    options: ["Mitochondria", "Ribosomes", "Endoplasmic reticulum", "Nucleus"],
+    correct: "Nucleus"
+  },
+  {
+    question: "The continuous process involving four distinct stages seen by light microscopes is called:",
+    options: ["Interphase", "Mitosis", "Meiosis", "Telophase"],
+    correct: "Mitosis"
+  },
+  {
+    question: "The process by which the spindle disappears, the chromosomes uncoil and the nuclear envelop reform is called:",
+    options: ["Metaphase", "Prophase", "Anaphase", "Telophase"],
+    correct: "Telophase"
+  },
+  {
+    question: "The process that occur in reproductive cell which forms four daughter cells is called.",
+    options: ["Anaphase", "Cell cycle", "Meiosis", "Mitosis"],
+    correct: "Meiosis"
+  },
+  {
+    question: "The group of tissues that is found in the body living cavities, hollow organs and tubes is called:",
+    options: ["Epithelial tissue", "Connective tissue", "Muscle tissue", "Nervous tissue"],
+    correct: "Epithelial tissue"
+  },
+  {
+    question: "Which of the following type of tissue helps in eliminating waste products?",
+    options: ["Epithelial tissue", "Connective tissue", "Muscular tissue", "Nervous tissue"],
+    correct: "Epithelial tissue"
+  },
+  {
+    question: "The tissue that provide shape to organs and holds them in place is called......",
+    options: ["Epithelial tissue", "Connective tissue", "Muscular tissue", "Nervous tissue"],
+    correct: "Connective tissue"
+  },
+  {
+    question: "Which of the following tissue is capable of considerable extension oral recoil?",
+    options: ["Fibrous tissue", "Adipose tissue", "Elastic tissue", "Cartilage tissue"],
+    correct: "Elastic tissue"
+  },
+  {
+    question: "The strong and durable type of connective tissue is called......",
+    options: ["Blood", "Bone", "Cartilage", "Tissue"],
+    correct: "Bone"
+  },
+  {
+    question: "Which of the following bones is a bone of appendicular skeleton?",
+    options: ["Tibia and femur", "Sternum and ribs", "Pelvic girdle and pectoral girdle", "Carpal and ribs"],
+    correct: "Pelvic girdle and pectoral girdle"
+  },
+  {
+    question: "The only movable bones of the skull are called:",
+    options: ["Palatine bones", "Mandible", "Vomer", "Frontal bones"],
+    correct: "Mandible"
+  },
+  {
+    question: "A thin flat bone which extends upward from the middle of the hard palate to form the main part of the nasal septum is called:",
+    options: ["Mandible", "Ethmoid", "Parietal", "Vomer"],
+    correct: "Vomer"
+  },
+  {
+    question: "Which of the bone occupies the anterior base of the skull?",
+    options: ["Ethmoid bone", "Sphenoid bones", "Temporal bone", "Parietal bone"],
+    correct: "Ethmoid bone"
+  },
+  {
+    question: "Which of the following consist of the shoulder girdle with the upper limbs and pelvic girdle with the lower limb?",
+    options: ["Axial skeleton", "Appendicular skeleton", "Thoracic cage", "ribs"],
+    correct: "Appendicular skeleton"
+  },
+  {
+    question: "The central nervous system consists of the brain and:",
+    options: ["Cell bodies", "Neuron", "Spinal cord", "Axon"],
+    correct: "Spinal cord"
+  },
+  {
+    question: "The Nervous system consists of neurons which conduct nerve impulses and are supported by unique connective tissues cell known as:",
+    options: ["Dendrites", "Brain", "Axons", "Neuroglia"],
+    correct: "Neuroglia"
+  },
+  {
+    question: "Neurones are commonly referred to as:",
+    options: ["Nerve cells", "Cell bodies", "Brain", "Axons"],
+    correct: "Nerve cells"
+  },
+  {
+    question: "Which of the following structures is involved in voluntary and reflex skeletal muscle contractions?",
+    options: ["Somatic nerves", "Autonomic nerves", "Afferent nerves", "Efferent nerves"],
+    correct: "Somatic nerves"
+  },
+  {
+    question: "Which of the following structures is involved in cardiac and smooth muscle contraction and glandular secretion?",
+    options: ["Somatic nerves", "Autonomic nerves", "Afferent nerves", "Efferent nerves"],
+    correct: "Autonomic nerves"
+  },
+  {
+    question: "Mental activities involved in memory, intelligence, sense of responsibility, thinking, moral sense and learning is function of:",
+    options: ["Hypothalamus", "Thalamus", "Axon", "Cerebral cortex"],
+    correct: "Cerebral cortex"
+  },
+  {
+    question: "Which of the following structure controls the output of hormones from both lobes of the pituitary gland?",
+    options: ["Pons", "Thalamus", "Medulla oblongata", "Hypothalamus"],
+    correct: "Hypothalamus"
+  },
+  {
+    question: "The control of reflex centre of vomiting, coughing, sneezing and swallowing is a function of:",
+    options: ["Cerebral cortex", "Cerebrum", "Pons", "Medulla oblongata"],
+    correct: "Medulla oblongata"
+  },
+  {
+    question: "The gland that lies in the hypophyseal fossa of the sphenoid bone below the hypothalamus is called:",
+    options: ["Thymus gland", "Pituitary gland", "Adrenal gland", "Thyroid gland"],
+    correct: "Pituitary gland"
+  },
+  {
+    question: "In both male and female the hormone that stimulates the production of gametes, ova or spermatozoa by the gonad is called:",
+    options: ["Prolactin", "Adrenal gland", "Follicle stimulating hormone", "Luteinizing hormone"],
+    correct: "Follicle stimulating hormone"
+  },
+  {
+    question: "Which of the following hormone is secreted during pregnancy to prepare the breasts for lactation after childbirth?",
+    options: ["Prolactin", "Adrenal gland", "Thyroid gland", "Pituitary gland"],
+    correct: "Prolactin"
+  },
+  {
+    question: "Which hormone is responsible for secretion of testosterone by the testis?",
+    options: ["Growth hormone", "Pituitary gland", "Adrenal gland", "Luteinizing hormone"],
+    correct: "Luteinizing hormone"
+  },
+  {
+    question: "One of the following is associated with the maintenance of water and electrolyte balance in the body.",
+    options: ["Glucocorticoids", "Mineralocorticoid", "Adrenaline", "Parathyroid hormone"],
+    correct: "Mineralocorticoid"
+  },
+  {
+    question: "Which of these is produced by the adrenal cortex?",
+    options: ["Adrenaline", "Adrenal medulla", "Glucocorticoid", "Parathyroid gland"],
+    correct: "Glucocorticoid"
+  },
+  {
+    question: "Among the following which of these is responsible for conversion of glucose to glycogen?",
+    options: ["Prolactin", "Glucagon", "Insulin", "Oxytocin"],
+    correct: "Insulin"
+  },
+  {
+    question: "Tongue plays a very important role in digestive system except:",
+    options: ["Chewing", "Swallowing", "Cutting", "Taste"],
+    correct: "Cutting"
+  },
+  {
+    question: "The process by which large molecule of food is broken down into simple and absorbable form is called:",
+    options: ["Digestion", "Ingestion", "Egestion", "Absorption"],
+    correct: "Digestion"
+  },
+  {
+    question: "Which of the following structure allows mixing of food with saliva?",
+    options: ["Teeth", "Mouth", "Tongue", "Salivary glands"],
+    correct: "Tongue"
+  },
+  {
+    question: "The structure in which food is temporarily stored for few hours and released at regular intervals by opening of the pyloric sphincter is called......",
+    options: ["Mouth", "Intestines", "Stomach"],
+    correct: "Stomach"
+  },
+  {
+    question: "Which digestive enzymes convert starch to maltose?",
+    options: ["Lipase", "Amylase", "Pepsin", "Renin"],
+    correct: "Amylase"
+  },
+  {
+    question: "The pancreatic juice consists of the following chemicals except",
+    options: ["Water", "Mineral salt", "Bile", "Enzymes"],
+    correct: "Bile"
+  },
+  {
     question: "The pancreatic juice consist of the following chemicals except………..",
     options: ["Water", "Mineral salt", "Bile", "Enzymes"],
     correct: "Bile"
